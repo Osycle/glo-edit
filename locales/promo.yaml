@@ -1,0 +1,35 @@
+promo_title:
+  ru: 'Розыгрыш'
+  uz: 'Sovrinli o’yin'
+
+promo_note:
+  ru: 'Активируй гарантию на glo hyper+ из ограниченного выпуска и стань участником крутого розыгрыша от glo'
+  uz: "Cheklangan taklif bo’lgan glo hyper+ kafolatni faollashtiring va glo-dan ajoyib sovrinli o’yin ishtirokchisiga aylaning"
+
+promo_info:
+  ru: 'КАЖДЫЙ 5-Й УЧАСТНИК ПОЛУЧИТ КОЛОНКУ <span>JBL CLIP 4</span> ИЛИ <span>JBL GO 3</span> В ЛИМИТИРОВАННОМ ЦВЕТЕ! ИЛИ ТЫ МОЖЕШЬ СТАТЬ ОБЛАДАТЕЛЕМ ОДНОГО ИЗ 10 <span>IPHONE 12 PRO</span>!'
+  uz: "Har 5-chi ishtiroqchi cheklangan rangdagi <span>JBL GO 3</span> yoki <span>CLIP 4</span> dinamikini yutib oladi! Yoki siz 10-ta <span>iPhone 12 Pro-dan</span> biriga ega bo’lishingiz mumkin!"
+
+promo_step_1_text:
+  ru: 'Зарегистрируй glo hyper+ из ограниченного выпуска и активируй гарантию!'
+  uz: "Cheklangan taklif bo’lgan glo hyper+ ni ro’yxatdan o’tkazing va kafolatni faollashtiring"
+
+promo_step_2_text:
+  ru: 'Получи уникальный номер участника!'
+  uz: "Noyob a’zo raqamini oling"
+
+promo_step_3_text:
+  ru: 'Участвуй в розыгрыше подарков от glo!'
+  uz: "Glo sovrinli o’yinda ishtiroq eting"
+
+promo_button_about:
+  ru: 'Подробнее об условиях акции'
+  uz: "Sovrilni o’yin haqida batafsilroq"
+
+promo_button_get:
+  ru: 'Участвовать!'
+  uz: "Sovrinli o’yinda qatnashish"
+
+promo_new:
+  ru: 'Новинка'
+  uz: 'Yangilik'

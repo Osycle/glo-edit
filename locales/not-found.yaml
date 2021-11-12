@@ -1,0 +1,12 @@
+not_found_title:
+  ru: 'Такой страницы не существует'
+  uz: 'Bunday sahifa mavjud emas'
+
+not_found_note:
+  ru: 'Возможно введен неверный адрес страницы или страница была удалена с сервера'
+  uz: "Sahifa manzili noto'g'ri kiritilgan yoki sahifa serverdan o'chirilgan bo'lishi mumkin"
+
+not_found_on_home:
+  ru: 'На главную'
+  uz: 'Asosiy sahifaga'
+

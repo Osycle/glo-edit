@@ -1,0 +1,166 @@
+faq_item_question_1:
+  ru: 'Что такое glo?'
+  uz: 'Glo nima?'
+
+faq_item_answer_1:
+  ru: '<p>glo – это инновационная технология нагревания табака, созданная в Великобритании.</p><p>Основная особенность glo – нагревание, а не горение табака*.</p><p>glo используется со стиками и neo, данные продукты предназначены исключительно для потребителей никотиновой продукции, достигших возраста 20 лет и старше.</p><p>*По сравнению с курением обычных сигарет. Это не обязательно означает, что данная продукция менее вредная, чем другая продукция из табака.</p>'
+  uz: "<p>glo Buyuk Britaniyada yaratilgan innovatsion tamaki isitish texnologiyasidir.</p><p>Glo ning asosiy xususiyati – yonish emas, balki isitish*.</p><p>glo stiklar va neo bilan ishlatiladi, bu mahsulotlar faqat 20 va undan yuqori yoshdagi nikotin mahsulotlari iste'molchilari uchun mo'ljallangan.</p><p>*Oddiy sigaret chekish bilan solishtirganda. Bu, albatta, bu mahsulot boshqa tamaki mahsulotlariga qaraganda kamroq zararli ekanligini anglatmaydi.</p>"
+
+faq_item_question_2:
+  ru: 'Как начать использовать устройство glo?'
+  uz: 'Glo qurilmasini qanday ishlatishni boshlash kerak?'
+
+faq_item_answer_2:
+  ru: '<p>Чтобы начать использование, вставьте табачный стик neo в устройство и зажмите кнопку включения на 3 секунды.</p><p>Через 20 секунд начните вдыхать пар через фильтр табачного стика также, как и при использовании обычных сигарет.</p><p>Одна сессия длится 3,5- 4 минуты.</p><p>После использования извлеките табачный стик neo и выбросьте его</p>'
+  uz: "<p>Foydalanishni boshlash uchun neo tamaki stikini qurilmaga joylashtiring va quvvat tugmasini 3 soniya ushlab turing.</p><p>20 soniyadan so'ng, bug'ni tamaki tamg'asi filtridan nafas olishni boshlang, shuningdek oddiy sigaretlardan foydalaning.</p><p>Bir sessiya 3,5 - 4 daqiqa davom etadi.</p><p>Foydalanishdan keyin Neo tamaki stikini olib tashlang va uni tashlang.</p>"
+
+faq_item_question_3:
+  ru: 'Из чего состоит устройство?'
+  uz: 'Qurilma nimadan iborat?'
+
+faq_item_answer_3:
+  ru: 'Цилиндрическая камера, поддерживающая оптимальную температуру устройства, нагреватель с мгновенным нагревом, печатная плата для контроля нагрева, батарея для зарядки устройства и Led- подсветка для индикаций заряда.'
+  uz: "Qurilmaning optimal haroratini, oniy isitish isitgichini, isitishni nazorat qilish uchun elektron kartani, qurilmani zaryadlovchi batareyani va zaryad ko'rsatkichlari uchun LED yoritishni qo'llab - quvvatlaydigan silindrli kamera."
+
+faq_item_question_4:
+  ru: 'В чем разница между устройством glo и подожжённым табаком (обычной сигаретой)?'
+  uz: "Glo qurilmasi va yong'inga qarshi tamaki (oddiy sigaret) o'rtasidagi farq nima?"
+
+faq_item_answer_4:
+  ru: '<p>glo – это совершенно новый способ потребления табака. Сначала вкус может показаться необычным и отличающимся от вкуса табака в сигарете, но это потому, что он не содержит компонентов, образующихся при горении табака*.</p><p>* Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</p>'
+  uz: "<p>glo tamaki iste'mol qilishning butunlay yangi usuli hisoblanadi. Birinchidan, ta'mi odatiy ko'rinishi va sigaretdagi tamaki ta'midan farq qilishi mumkin, ammo bu tamaki Gorenje*da hosil bo'lgan tarkibiy qismlarni o'z ichiga olmaydi.</p><p>* Ushbu tizim xavf-xatarsiz mahsulot emas va o'ziga qaram bo'lgan nikotinni o'z ichiga oladi. Jahon sog'liqni saqlash tashkiloti sigaret tutuni kamaytirish tavsiya foydalanish 9 zararli moddalar turlari, o'rtacha standart sigaret (taxminan 9 mg qatronlar) va isitish tamaki glo qurilma bug ' bilan tutun taqqoslash.</p>"
+
+faq_item_question_5:
+  ru: 'Каков основной механизм работы устройства?'
+  uz: 'Qurilmaning asosiy mexanizmi nima?'
+
+faq_item_answer_5:
+  ru: '<p>Внутри устройства находится цилиндрическая камера, в которую вставляется табачный стик.</p><p>При активации батарея подает напряжение к нагревательной камере, где и нагревается табак при температуре около 260 градусов по Цельсию.</p><p>В результате образуется насыщенный никотином пар.</p>'
+  uz: "<p>Qurilma ichida tamaki tamg'asi o'rnatilgan silindrsimon kamera mavjud.</p><p>Faollashtirilganda, akkumulyator isitish kamerasiga kuchlanishni ta'minlaydi, bu erda tamaki 260 daraja santigrat haroratda isitiladi.</p><p>Natijada nikotin bilan to'yingan bug ' hosil bo'ladi.</p>"
+
+
+
+faq_about_question_1:
+  ru: 'Что такое glo?'
+  uz: 'glo – bu nima?'
+
+faq_about_answer_1:
+  ru: '<p>glo – это инновационная технология нагревания табака, созданная в Великобритании. Основная особенность glo – нагревание, а не горение табака*. glo равномерно нагревает табак в табачном стике примерно до около 270 градусов Цельсия. Вместе со стиками glo технология раскрывает многогранный вкус специально отобранных сортов табака. В сигаретах при температуре около 900 градусов Цельсия идёт процесс горения, в результате которого образуется табачный дым и пепел. Устройства glo и специальные стики предназначены для использования потребителями никотиновой продукции старше 20 лет. * Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. </p>'
+  uz: "<p>glo – bu Buyuk Britaniyada yaratilgan tamakini qizdirishning innovatsion texnologiyasi. glo ning asosiy xususiyati  – tamakini yondirish emas, balki qizdirishdir*. glo tamaki tayoqchasidagi tamakini taxminan 270 daraja Selziy bo’yicha atrofida bir xilda qizdiradi. glo texnologiyasi tayoqchalar bilan birgalikda maxsus tanlangan tamaki navlarining  ko’p qirrali ta’mini ochib beradi. Selziy bo’yicha 900 daraja harorat atrofida sigaretalarda yonish jarayoni boshlanadi, buning natijasida tamaki tutuni va kuli hosil bo’ladi. glo qurilmasi va maxsus tayoqchalar nikotin mahsulotini iste’mol qiluvchi 20 yoshdan kattalar foydalanishi uchun mo’ljallangan. *Ushbu tizim xavfsiz mahsulot emas va o'ziga qaram qiluvchi nikotinni o'z ichiga oladi. </p>"
+
+faq_about_question_2:
+  ru: 'Как начать использовать устройство glo?'
+  uz: 'glo qurilmasidan foydalanishni  qanday boshlash kerak?'
+
+faq_about_answer_2:
+  ru: '<p>Чтобы начать использование системы нагревания табака, вставьте специальный стик в устройство и зажмите кнопку включения на 3 секунды, до вибрации. Через 20 секунд устройство вновь завибрирует – glo можно использовать. Начните вдыхать пар через фильтр стика также, как и при использовании обычных сигарет. Одна сессия длится 3,5- 4 минуты. После использования извлеките табачный стик для glo и выбросьте его. </p>'
+  uz: '<p>Tamakini qizdirish tizimidan foydalanishni boshlash uchun, maxsus stikni (tayoqchani) qurilmaga joylashtiring va yoqish tugmasini vibratsiyagacha 3 soniya davomida ushlab turing. 20 soniyadan so’ng qurilma qaytadan vibratsiyalashni boshlaydi– endi glo qurilmasidan foydalanish mumkin. Xuddi oddiy sigaretadan foydalangan kabi, tayoqcha filtri orqali bug’dan nafas olishni boshlang. Bir sessiya 3,5- 4 daqiqa davom etadi. Foydalanib bo’lgandan keyin glo qurilmasidagi tamaki stikni (tayoqchasini) oling va uni tashlab yuboring. </p>'
+
+
+
+faq_search_question_1:
+  ru: "Где приобрести (купить) устройства glo и специальные стики?"
+  uz: "glo qurilmasi va maxsus tayoqchalarni qayerdan olish (xarid qilish) mumkin?"
+
+faq_search_answer_1:
+  ru: "Устройства (девайс) для нагревания табака glo и стики можно купить в магазинах розничной торговли в г. Ташкент, а также в других городах Узбекистана. Для поиска точек продаж используйте карту с точками продаж на официальном сайте glo в Узбекистане. Узнать о расположении ближайшего к Вам магазина, можно также в официальном боте glo в мессенджере Telegram (@glo_uz_bot)."
+  uz: "Tamakini qizdirish uchun glo qurilmasi (devays) va stiklarni (tayoqchalarni) Toshkent shahri, shuningdek O’zbekistonning boshqa shaharlaridagi chakana savdo do’konlaridan sotib olish mumkin. Savdo shahobchalarini topish uchun O’zbekistondagi glo rasmiy saytining savdo shahobchalari xaritasidan foydalaning. Shuningdek, Telegram (@glo_uz_bot) messenjeri orqali glo rasmiy botidan Sizga yaqin yerda joylashgan do’kon haqida bilib olishingiz mumkin."
+
+faq_search_question_2:
+  ru: "Сколько стоит устройство glo?"
+  uz: "glo qurilmasi qancha turadi?"
+
+faq_search_answer_2:
+  ru: "Рекомендованная розничная цена на устройство для нагревания табака glo в Узбекистане 200 000 сумов."
+  uz: "glo tamakini qizdirish qurilmasining O’zbekistonda tavsiya etilgan  chakana narxi 200 000 so’m."
+
+faq_search_question_3:
+  ru: "Сколько стоят табачные стики?"
+  uz: "Tamaki stiklari (tayoqchalari) necha pul turadi?"
+
+faq_search_answer_3:
+  ru: "Рекомендованная розничная цена на стики для glo (гло) 14 500 сумов."
+  uz: "glo qurilmasini uchun stiklarning (tayoqchalarning) tavsiya etilgan  chakana narxi 14 500 so’m."
+
+
+faq_char_question_1:
+  ru: "Из чего состоит устройство для нагревания glo?"
+  uz: "glo qizdirish qurilmasi nimalardan iborat?"
+
+faq_char_answer_1:
+  ru: "Цилиндрическая камера, поддерживающая необходимую температуру для нагревания табака, печатная плата для контроля нагрева, батарея и Led- подсветка для индикаций заряда."
+  uz: "Tamakini qizdirish uchun kerakli haroratni ushlab turuvchi silindrsimon kamera, qizdirishni nazorat qiluvchi bosma plata, batareya va zaryadni indikatsiya qilish uchun Led-yoritgich."
+
+faq_char_question_2:
+  ru: "Каков основной механизм работы устройства?"
+  uz: "Qurilmaning asosiy ishlash mexanizmi qanday?"
+
+faq_char_answer_2:
+  ru: "Внутри устройства glo находится цилиндрическая камера, в которую вставляется специальный стик. При активации батарея подает напряжение к нагревательной камере, где и нагревается табак при температуре около 270±5 градусов по Цельсию. В результате образуется насыщенный никотином пар."
+  uz: "glo qurilmasi ichida silindrsimon kamera joylashgan bo’lib, unga maxsus stiki (tayoqcha)  o’rnatiladi. Batareya faollashtirilganda batareya qizdirish kamerasiga kuchlanishni yetkazib beradi, u yerda tamaki Tselsiy bo’yicha 270±5 daraja atrofidagi haroratda qiziydi. Natijada nikotinga to’yintirilgan bug’ hosil bo’ladi."
+
+faq_char_question_3:
+  ru: "В чем разница между устройством glo и подожжённым табаком (обычной сигаретой)?"
+  uz: "glo qurilmasi va yoqilgan tamaki (oddiy sigareta) o’rtasidagi farq nimada?"
+
+faq_char_answer_3:
+  ru: "glo – это совершенно новый способ потребления табака. Сначала вкус может показаться необычным и отличающимся от вкуса табака в сигарете, но это потому, что он не содержит компонентов, образующихся при горении табака. С glo выделяется на 90-95% меньше токсинных веществ.**Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме."
+  uz: "glo – bu tamaki iste’mol qilishning mutlaqo yangi usuli. Avvaliga uning ta’mi noodatiy va sigaretadagi tamaki ta’midan farq qiluvchi mazasi bilan ajralib turadi, chunki uning tarkibida tamaki yonganda hosil bo’ladigan komponentlar mavjud emas.  glo qurilmasidan 90-95%  kamroq zaharli moddalar ajralib chiqadi*. *Ushbu tizim xavfsiz mahsulot hisoblanmaydi va uning tarkibida o’ziga qaram qiluvchi nikotin mavjud. Oddiy, standart sigareta tutuni  va glo qurilmasida qizdirilgan tamaki bug’i  taqqoslanganda, Jahon sog’liqni saqlash tashkiloti tomonidan kamaytirish tavsiya qilingan iste’mol qilinadigan o’rtacha 9 turdagi zaharli moddalar sigareta tutunida (taxminan 9 mg) ko’pligi aniqlangan."
+
+faq_char_question_4:
+  ru: "Во время использования я чувствую какой-то особенный запах. Что это?"
+  uz: "Foydalanish vaqtida men qandaydir o’ziga xos hidni sezaman. Bu nima?"
+
+faq_char_answer_4:
+  ru: "В процессе нагревания табака образуется насыщенный никотином пар, который содержит глицерин и результаты нагревания табачной смеси в стике."
+  uz: "Tamakini qizdirish jarayonida nikotin bilan to’yintirilgan bug’ hosil bo’ladi, bu glitserin va tayoqchadagi tamaki aralashmasini qizdirish natijasidan hosil bo’lgan bug’dan iboratdir."
+
+faq_char_question_5:
+  ru: "Что входит в комплектацию стартового набора glo?"
+  uz: "glo qurilmasi boshlang’ich to’plamining tarkibiga nimalar kiradi?"
+
+faq_char_answer_5:
+  ru: "В комплекте вы  найдете USB-кабель и щеточку для чистки, а также руководство пользователя к использованию устройства для нагревания табака glo hyper+ с табачными стиками."
+  uz: "To’plamdan siz USB-kabel va tozalash uchun cho’tka, shuningdek  glo hyper+ tamakini qizdirish qurilmasini tamaki stiklari (tayoqchalari) bilan birga qurilmadan foydalanish uchun taqdim etilgan qo’llanmani topishingiz mumkin."
+
+faq_char_question_6:
+  ru: "В чем преимущества устройства glo?"
+  uz: "glo qurilmasining afzalligi nimada?"
+
+faq_char_answer_6:
+  ru: "• Индукционная система нагревания, которая равномерно прогревает стик<br>• До 20 сессий без подзарядки<br>• glo представляет из себя один блок<br>• На рынке представлены стики для glo (гло): табачные предложения и предложения с капсулой."
+  uz: "Tayoqchalarni bir me’yorda qizdiradigan induksion tizimi <br>•	zaryadlashsiz 20 tagacha sessiya <br>•	glo bir blokni tashkil qiladi <br>•	Bozorda glo uchun tayoqchalar: tamaki takliflari va kapsulali takliflar taqdim etilgan."
+
+
+faq_garanty_question_1:
+  ru: "Есть ли гарантия на устройство для нагревания табака glo (гло)?"
+  uz: "glo  tamakini qizdirish qurilmasining kafolati bormi?"
+
+faq_garanty_answer_1:
+  ru: "Да, на устройство glo установлена гарантия 1 год, в течение данного срока вы сможете, при наступлении гарантийного случая, обратиться с заявлением о неисправности в фирменные магазины или в службу поддержки."
+  uz: "Ha, glo qurilmasi uchun 1 yil kafolat muddati belgilangan, ushbu muddat davomida, kafolat holatlari yuzaga kelganda, siz qurilmadagi nosozliklar haqida firma do’konlari yoki qo’llab-quvvatlash xizmatiga ariza bilan murojaat qilishingiz mumkin."
+
+faq_garanty_question_2:
+  ru: "Куда обращаться в случае выхода устройства из строя или возникновения других вопросов?"
+  uz: "Qurilma ishdan chiqqan holatlar yoki boshqa muammolar yuzaga kelganda qayerga murojaat qilish kerak?"
+
+faq_garanty_answer_2:
+  ru: "По всем возникающим вопросам, Вы всегда можете обращаться в службу поддержки по короткому номеру 1252, который действует по всему Узбекистану."
+  uz: "Barcha yuzaga kelgan savollar bo’yicha Siz har doim qo’llab-quvvatlash xizmatining butun O’zbekiston bo’ylab amal qiluvchi 1252 qisqa raqam bo’yicha murojaat  qilishingiz mumkin."
+
+
+faq_care_question_1:
+  ru: "Как чистить устройство?"
+  uz: "Qurilmani qanday tozalash kerak?"
+
+faq_care_answer_1:
+  ru: "<p>При регулярной чистке устройства вкус стиков не искажается, стики вынимаются с легкостью, без постороннего запаха из нагревательной камеры.</p><p>Устройство необходимо чистить после каждых 20 сеансов.</p>•	Перед началом чистки убедитесь, что устройство остыло.<br>•	Откройте затвор в верхней части.<br>•	Откройте чистящую дверцу в нижней части устройства.<br>•	Аккуратно очистите внутреннюю камеру специальной щеткой из стартового набора.<br>•	Ополосните щеточку под проточной водой. Перед очисткой устройства для нагревания табака glo, пожалуйста, убедитесь, что щеточка высохла."
+  uz: "<p>Qurilmani muntazam tozalab turishda stiklarning (tayoqchalarning) ta’mi o’zgarmaydi, stiklar qizdirish kamerasidan yot hidlarsiz osonlik bilan chiqariladi.Qurilmani har 20 seansdan keyin tozalash kerak.</p><br>•	Tozalashdan oldin qurilma sovuganligiga ishonch hosil qiling.<br>•	Yuqori qismidagi qulfni oching.<br>•	Qurilmaning pastki qismidagi tozalanadigan kichkina eshikchani oching.<br>•	Ichki kamerani boshlang’ich to’plamdagi maxsus cho’tka bilan ehtiyotkorlik bilan tozalang.<br>•	Cho’tkani oqib turgan suv tagida chayqang. glo tamakini qizdirish qurilmasini tozalashdan oldin cho’tka quruqligiga ishonch hosil qiling."
+
+faq_care_question_2:
+  ru: "Могу ли я заряжать glo через другие провода/устройства?   "
+  uz: "Men glo qurilmasini boshqa simlar/qurilmalar orqali zaryadlashim mumkinmi?   "
+
+faq_care_answer_2:
+  ru: "Устройство следует подключать только к безопасной электросети с высоким напряжением, используя источники питания с выходными характеристиками 1 А (для glo hyper+, модель G403) или 2А (glo  hyper+, модель G402) или источник питания для glo (ерия YJC010W). Изменение источника питания с меньшими выходными характеристиками приведет к замедлению процесса заярдки устройтсва."
+  uz: "Qurilmani faqat 1 А (glo hyper+ uchun, G403 modeli) yoki 2А (glo  hyper+, G402 modeli) chiqish xususiyatlariga ega yoki  (epiya YJC010W) quvvatlanish manbalaridan foydalangan holda yuqori kuchlanishli xavfsiz elektr tarmog’iga ulash mumkin. Quvvatlanish manbaining chiqish xususiyatlari kamrog’iga o’zgartirilishi qurilmaning zaryadlanish jarayonining sekinlashuviga olib keladi."

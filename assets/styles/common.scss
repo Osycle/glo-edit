@@ -1,0 +1,47 @@
+@import 'bootstrap/dist/css/bootstrap-reboot';
+@import 'bootstrap/dist/css/bootstrap-grid';
+@import 'bootstrap/dist/css/bootstrap-utilities';
+// @import 'aos/dist/aos';
+
+@import './../fonts/style.css';
+
+
+html,
+body {
+  height: 100%;
+  font-family: 'Mont', sans-serif;
+  color: $color-default;
+}
+
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+[data-title-line] {
+  position: relative;
+  margin-bottom: 40px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 80px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: $color-secondary;
+  }
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.container-middle {
+  max-width: 1180px;
+}
+
+.is-overflow {
+  overflow: hidden;
+}

@@ -1,0 +1,452 @@
+# Global
+currency:
+  ru: 'СУМ'
+  uz: "SO'M"
+
+# Menu
+menu_catalog:
+  ru: 'Каталог'
+  uz: 'Katalog'
+
+menu_about:
+  ru: 'O glo'
+  uz: 'glo haqida'
+
+menu_store:
+  ru: 'Найти магазин'
+  uz: 'Do’konni topish'
+
+menu_contest:
+  ru: 'Розыгрыш'
+  uz: 'Sovrinli o’yin'
+
+menu_contacts:
+  ru: 'Контакты'
+  uz: 'Aloqa'
+
+menu_support:
+  ru: 'Телефон службы поддержки'
+  uz: "Qo'llab-quvvatlash xizmati"
+
+menu_faq:
+  ru: 'FAQ'
+  uz: "FAQ"
+
+# Hero
+hero_title:
+  ru: 'НА 90-95% <br> МЕНЬШЕ <br> ТОКСИЧНЫХ <br> ВЕЩЕСТВ c glo'
+  uz: 'glo BILAN 90-95% <br> DAN KAMROQ <br> ZAHARLOVCHI <br> MODDALAR'
+
+hero_desc:
+  ru: 'Технология <br> нагревания <br> табака'
+  uz: 'Tamaki <br> isitish <br> texnologiyasi'
+
+hero_note:
+  ru: 'Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения  рекомендует уменьшить в сигаретном дыме.'
+  uz: "Ushbu tizim xavf-xatarsiz mahsulot hisoblanmaydi va uning tarkibida o’ziga qaram qiladigan nikotin mavjud. Oddiy sigaretadagi tutun (taxminan 9 mg qatron) va qizdirilgan glo tamaki qurilmasidagi bug’ taqqoslanganda, o'rtacha 9 turdagi zararli moddalar aniqlangan, Jahon sog'liqni saqlash tashkiloti ularning iste’mol qilinishini, sigareta tutunini kamaytirishni tavsiya qiladi."
+
+# Carousel
+hero_carousel_title:
+  ru: 'Яркая <br>коллаборация <br>&<br> крутой <br>розыгрыш'
+  uz: "Yorqin <br>HAMKORLIK <br>&<br> ajoyib <br>sovrinli o'yin"
+
+hero_carousel_note:
+  ru: 'Условие розыгрыша - активация гарантии'
+  uz: "O'yin sharti - kafolatni faollashtirish"
+
+hero_button_text:
+  ru: 'Подробнее'
+  uz: "Batafsil ma’lumot"
+
+# About
+about_title:
+  ru: 'Что такое glo?'
+  uz: 'glo nima?'
+
+about_content_1:
+  ru: '<strong>glo – это технология нагревания табака, разработанная в Центре исследований и разработок «Бритиш Американ Тобакко» в Великобритании.</strong> Над созданием glо работали больше 100 ученых, инженеров, дизайнеров и табачных экспертов.'
+  uz: "<strong>glo - Buyuk Britaniyadagi «British American Tobacco» tadqiqot va rivojlantirish markazida ishlab chiqarilgan tamaki isitish texnologiyasi.</strong> 100 dan ortiq olimlar, muhandislar, dizaynerlar va tamaki mutaxassislari glo yaratish ustida ishladilar."
+
+about_content_2:
+  ru: '<strong>glo присутствует по всему миру</strong>, в таких странах, как Германия, Южная Корея, Япония, Италия, Россия, Казахстан, а также в ряде других развитых стран.'
+  uz: "<strong>glo butun dunyo bo’ylab</strong>, shuningdek Germaniya, Janubiy Koreya, Yaponiya, Italiya, Rossiya, Qozog'iston va boshqa bir qator rivojlangan mamlakatlarda ham mavjud."
+
+# Fact details
+fact_details_title:
+  ru: '<span>Нагревание,</span> а не горение*.'
+  uz: '<span>Bu isitish,</span> yonish emas*.'
+
+fact_details_content:
+  ru: 'Внутри устройства находится цилиндрическая камера, в которую вставляется табачный стик***. При включении табачный стик нагревается при температуре до 270°C ±5. В результате образуется насыщенный никотином пар. При нагревании полностью отсутствует процесс горения, а значит токсичных веществ и смол выделяется меньше**.'
+  uz: "Qurilmaning ichida silindrsimon kamera joylashgan bo'lib, unga tamaki stiki *** joylashtiriladi. Yoqilganda, tamaki tayoqchasi 200 dan 260 darajagacha bo'lgan temperaturada qiziydi. Natijada nikotinga to’yintirilgan bug’ hosil bo'ladi.  Qizdirishda yonish jarayoni umuman mavjud bo’lmaydi, demak,  zaharli moddalar va qatronlar kamroq ajraladi **."
+
+fact_details_normal:
+  ru: 'Температура нагревания <br> табака в устройствах glo'
+  uz: 'glo qurilmalarida tamakini isitish temperaturasi'
+
+fact_details_hot:
+  ru: 'В сигаретах  табак горит при температуре около 900° С.'
+  uz: 'Sigaretalarda tamaki 900°C temperatura atrofida yonadi.'
+
+# Fact Beтefits
+fact_benefits_title:
+  ru: 'НА 90-95% МЕНЬШЕ ТОКСИЧНЫХ ВЕЩЕСТВ c glo'
+  uz: 'glo BILAN 90-95% DAN KAMROQ ZAHARLOVCHI MODDALAR'
+
+fact_benefits_note:
+  ru: 'Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения  рекомендует уменьшить в сигаретном дыме. *'
+  uz: "Ushbu tizim xavf-xatarsiz mahsulot hisoblanmaydi va uning tarkibida o’ziga qaram qiladigan nikotin mavjud. Oddiy sigaretadagi tutun (taxminan 9 mg qatron) va qizdirilgan glo tamaki qurilmasidagi bug’ taqqoslanganda, o'rtacha 9 turdagi zararli moddalar aniqlangan, Jahon sog'liqni saqlash tashkiloti ularning iste’mol qilinishini, sigareta tutunini kamaytirishni tavsiya qiladi. *"
+
+# Benefits
+benefits_sigarete:
+  ru: 'Сигареты'
+  uz: 'Sigaretalar'
+
+benefits_note:
+  ru: 'Конденсат выделяемого при использовании glo пара, собранный на подушечке из стекловолокна, не содержит смол от сигаретного дыма.'
+  uz: "Shisha tolali yostiqchalarda to'plangan, glo dan foydalanganda bug’dan ajralib chiqadigan kondensat tarkibida sigareta tutunidagi  smola mavjud emas."
+
+benefits_title:
+  ru: 'ПРЕИМУЩЕСТВА glo HYPER+'
+  uz: 'glo HYPER + NING AFZALLIKLARI'
+
+benefits_item_1:
+  ru: 'Без пепла, меньше запаха **'
+  uz: 'Kulsiz, hidi kamroq **'
+
+benefits_item_2:
+  ru: 'До 20 сессий на одном заряде ****'
+  uz: 'Bitta quvvatda 20 ta sessiyagacha ****'
+
+benefits_item_3:
+  ru: 'Можно использовать когда угодно'
+  uz: 'Istalgan vaqtda foydalanish mumkin'
+
+benefits_item_4:
+  ru: 'Функция BOOST. Ускоренный нагрев устройства за 15 секунд'
+  uz: 'BOOST funksiyasi. Qurilmani 15 soniya ichida tez isitish'
+
+# Products
+products_title:
+  ru: 'Ассортимент glo'
+  uz: 'glo assortimenti'
+
+products_white:
+  ru: 'oq'
+  uz: 'qora'
+
+products_item_white:
+  ru: 'glo HYPER+ белый'
+  uz: 'glo HYPER+ oq'
+
+products_item_black:
+  ru: 'glo HYPER+ чёрный'
+  uz: 'glo HYPER+ qora'
+
+products_item_gold:
+  ru: 'glo HYPER+ золотой'
+  uz: 'glo HYPER+ oltin'
+
+products_item_blue:
+  ru: 'glo HYPER+ голубой'
+  uz: 'glo HYPER+ moviy'
+
+products_item_red-wood:
+  ru: 'glo HYPER+ красное дерево'
+  uz: 'glo HYPER+ mahogany'
+
+products_item_timati:
+  ru: 'glo HYPER+ Topaz'
+  uz: 'glo HYPER+ Topaz'
+
+products_item_buzova:
+  ru: 'glo HYPER+ Bliss'
+  uz: 'glo HYPER+ Bliss'
+
+products_note:
+  ru: '* Рекомендуемая цена в рознице'
+  uz: '* Tavsiya etilayotgan chakana narxi'
+
+products_limit:
+  ru: 'Ограниченная версия'
+  uz: 'Cheklangan versiya'
+
+# Find Store
+find_store_title_1:
+  ru: 'ГДЕ КУПИТЬ glo hyper+?'
+  uz: 'glo hyper+ ni QAYERDA XARID QILISH MUMKIN?'
+
+find_store_title_2:
+  ru: 'НАЙТИ МАГАЗИН'
+  uz: 'DO’KONNI TOPISH'
+
+find_store_note:
+  ru: 'Ориентировочные сведения о наличии продукта.'
+  uz: "Mahsulot mavjudligi haqida ma'lumot."
+
+find_store_offline:
+  ru: ' '
+  uz: " "
+
+find_store_offline_note:
+  ru: 'Фирменные магазины O:SPACE, расположены по адресам:'
+  uz: "O:SPACE do’konlari quyidagi manzillarda joylashgan:"
+
+find_store_offline_adress_1:
+  ru: 'г. Ташкент, Мирзо-Улугбекский район, ул. Узбекистон Овози, дом 21 (Ц-1, напротив кафе Бибигон).'
+  uz: "Toshkent, Mirzo-Ulug'bek tumani, O'zbekiston Ovozi ko'ch., 21 uy (C-1, Bibigon kafe qarshisida)."
+
+find_store_offline_adress_2:
+  ru: 'г. Ташкент, Бектемирский район, ТКАД, дом № 17. Ориентир: ТЦ “COMPASS”'
+  uz: 'Toshkent sh., Bektemir tumani, TKAD, 17 uy. Mo’ljal: “COMPASS” savdo markazi.'
+
+find_store_offline_adress_3:
+  ru: 'Адрес: г. Ташкент, улица Матбуотчилар, 17. Ориентир: торговый центр «Zarafshan».'
+  uz: 'Toshkent sh., Yunusobod tumani, Matbuotchilar ko’ch., 17 uy. Mo’ljal: "Zarafshon" savdo markazi.'
+
+find_store_offline_adress_4:
+  ru: 'Адрес: г. Ташкент, Алмазарский район, улица Нурафшон, дом № 5 (ТЦ Riviera).'
+  uz: "Toshkent sh., Olmazor tumani, Nurafshon ko'chasi, 5 -uy (Riviera savdo markazi)."
+
+find_store_offline_adress_5:
+  ru: 'г. Ташкент, Яккасарайский район, ул. Кичик Халка Йули, 88. Ориентир:  автостоянка Корзинки Аэропорт.'
+  uz: "Toshkent sh., Yakkasaroy tumani, Kichik Halqa Yo’li ko'ch. , 87A uy. Mo’ljal: Korzinka Aeroport mashinalar turargohi."
+
+find_store_adress:
+  ru: 'Адрес'
+  uz: 'Manzil'
+
+find_store_enter_adress:
+  ru: 'Введите адрес'
+  uz: 'Manzilni kiriting'
+
+find_store_geolocation:
+  ru: 'Использовать геолокацию'
+  uz: 'Geolokatsiyadan foydalanish'
+
+find_store_category:
+  ru: 'Категория продукта'
+  uz: 'Mahsulot turkumi'
+
+find_store_devices:
+  ru: 'Продажа устройств'
+  uz: 'Qurilmalarni sotish'
+
+find_store_sticky:
+  ru: 'Продажа стиков'
+  uz: 'Tayoqchalarni sotish'
+
+# Contacts
+contacts_in_contact:
+  ru: 'МЫ НА СВЯЗИ'
+  uz: 'BIZ ALOQADAMIZ'
+
+contacts_bot:
+  ru: 'АКТИВИРУЙ ГАРАНТИЮ И УЗНАЙ БОЛЬШЕ В НАШЕМ БОТЕ'
+  uz: "KAFOLATNI FAOLLASHTIRING VA BIZNING BOTIMIZDA KO'PROQ MA'LUMOT OLING"
+
+contacts_instagram:
+  ru: 'ОФИЦИАЛЬНАЯ СТРАНИЦА В INSTAGRAM'
+  uz: 'INSTAGRAMDAGI RASMIY SAHIFA'
+
+# FAQ
+faq_title:
+  ru: 'ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ'
+  uz: 'KO’PINCHA BERILADIGAN SAVOLLAR'
+
+faq_what_is_glo:
+  ru: 'Что такое glo?'
+  uz: 'glo nima?'
+
+faq_more:
+  ru: 'Узнать больше'
+  uz: "Ko'proq bilib oling"
+
+faq_link_about:
+  ru: 'О glo'
+  uz: "glo haqida"
+
+faq_link_search:
+  ru: 'Где найти'
+  uz: "Qaerdan topish mumkin?"
+
+faq_link_char:
+  ru: 'Характеристики'
+  uz: "Xususiyatlar"
+
+faq_link_buy:
+  ru: 'Где купить'
+  uz: "Sotib olish"
+
+faq_link_draw:
+  ru: 'Розыгрыш'
+  uz: "Sovrinli o'yin"
+
+faq_link_stock:
+  ru: 'Призовая акция'
+  uz: "Sovrinli aksiya"
+
+faq_link_science:
+  ru: 'Наука'
+  uz: "Ilm-fan"
+
+faq_link_care:
+  ru: 'Уход за glo'
+  uz: "glo qurilmasi parvarish qilish"
+
+faq_link_garanty:
+  ru: 'Гарантия и служба поддержки'
+  uz: "Kafolat va qo’llab-quvvatlash xizmati "
+
+
+# Footer
+footer_frequent_quest:
+  ru: 'Часто задаваемые вопросы'
+  uz: 'Ko’pincha beriladigan savollar'
+
+footer_helpfull_links:
+  ru: 'Полезные ссылки'
+  uz: 'Foydali havolalar'
+
+footer_return:
+  ru: 'Возврат и обмен'
+  uz: 'Qaytarib olish va almashtirish'
+
+footer_prersonal_data:
+  ru: 'Политика в отношении обработки персональных данных'
+  uz: "Shaxsiy ma'lumotlarni qayta ishlash siyosati"
+
+footer_accept_personal_data:
+  ru: 'Согласие на обработку персональных данных'
+  uz: "Shaxsiy ma'lumotlarni qayta ishlashga rozilik berish"
+
+footer_user_argreement:
+  ru: 'Пользовательское соглашение'
+  uz: 'Foydalanuvchi shartnomasi'
+
+footer_user_cookies:
+  ru: 'Политика Cookies'
+  uz: 'Cookie siyosati'
+
+footer_contacts:
+  ru: 'КОНТАКТЫ'
+  uz: 'ALOQA'
+
+note_campare:
+  ru: '* Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
+  uz: "* Ushbu tizim xavf-xatarsiz mahsulot emas va o'ziga qaram bo'lgan nikotinni o'z ichiga oladi. Standart sigaret tutunini (taxminan 9 mg qatronlar) va bug'ni isitilgan tamaki qurilmalaridan taqqoslashglo jahon sog'liqni saqlash tashkiloti sigaret tutunini kamaytirishni tavsiya qiladigan zararli moddalarning o'rtacha 9 turiga to'g'ri keladi."
+
+note_health:
+  ru: '** По сравнению с курением обычных сигарет. Это не обязательно означает, что данная продукция менее вредная, чем другая продукция из табака.'
+  uz: "** Oddiy sigaret chekish bilan solishtirganda. Bu, albatta, bu mahsulot boshqa tamaki mahsulotlariga qaraganda kamroq zararli ekanligini anglatmaydi."
+
+note_stick:
+  ru: '*** Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака.'
+  uz: "*** Stick tamaki iste'mol qilish uchun tizimlarda foydalanish uchun mo'ljallangan sigaret chekadigan tamaki mahsulotidir."
+
+note_battery:
+  ru: '**** При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления.'
+  uz: "**** Qurilmani to'liq zaryad qilish sharti bilan. Sessiyalar soni iste'molga qarab farq qilishi mumkin."
+
+# Age checker
+age_checker_note:
+  ru: '<p>Вы находитесь на официальном сайте технологии нагревания табака glo. Информация на сайте предназначена исключительно для потребителей табака или иной никотинсодержащей продукции, достигших двадцатилетнего возраста, в целях информирования о характеристиках и свойствах продукции, об ассортименте продукции, реализуемой АО СП «УЗБАТ А.О.», правилах пользования такой продукцией, местах реализации устройств для нагревания табака. Для доступа на сайт необходимо подтвердить ваш возраст. Мы используем файлы cookie для улучшения опыта взаимодействия с сайтом согласно политике Cookie</p>'
+  uz: '<p>Siz glo tamaki qizdirish texnologiyasining rasmiy veb-saytidasiz. Saytdagi ma’lumotlar yigirma yoshga to’lgan, tamaki yoki tarkibida nikotin mavjud bo’lgan boshqa mahsulotni iste’mol qiluvchilar uchun mahsulotning xususiyati va xossalari, “UZBAT A.J.” AJ Qo’shma korxonasi tomonidan ishlab chiqarilgan mahsulot assortimenti, bunday mahsulotdan foydalanish qoidalari, tamakini qizdirish uchun qurilmalarni sotish joylari to’g’risida ma’lumot berish maqsadida mo’ljallangan. Saytga kirish uchun yoshingizni tasdiqlashingiz kerak bo’ladi. Biz Cookie siyosatiga muvofiq ravishda sayt bilan o’zaro tajriba almashishni yaxshilash uchun cookie fayllaridan foydalanamiz.</p>'
+
+age_checker_agree:
+  ru: 'Я подтверждаю, что мне исполнилось 20 или более лет и я являюсь потребителем табака или иной никотинсодержащей продукции, и соглашаюсь с использованием cookie.'
+  uz: "MEN 20 YOSH YOKI UNDAN KATTA YOSHDA EKANLIGIMNI VA MEN TAMAKI YOKI TARKIBIDA NIKOTIN MAVJUD BO’LGAN BOSHQA MAHSULOTNING ISTE’MOLCHISI HISOBLANISHIM, VA COOKIE SIYOSATIDAN FOYDALANISHGA ROZILIGIMNI TASDIQLAYMAN."
+
+age_checker_denied:
+  ru: 'ДОСТУП ЗАПРЕЩЕН!'
+  uz: 'KIRISH TAQIQLANGAN!'
+
+age_checker_order_by:
+  ru: 'Информация и товары на сайте предназначены для лиц, достигших 20 лет.'
+  uz: "Saytdagi ma'lumotlar va mahsulotlar 20 yoshdan oshganlar uchun mo'ljallangan."
+
+age_checker_info:
+  ru: 'Информация и товары на сайте предназначены для лиц, достигших 20 лет. Мы не реализуем продукцию несовершеннолетним.'
+  uz: "Saytdagi ma'lumot va mahsulotlar 20 yilga etgan shaxslar uchun mo'ljallangan. Mahsulotlar va etkazib beruvchilarning lentasini yanada aniqroq qurish uchun"
+
+age_checker_please:
+  ru: 'Пожалуйста, укажите дату вашего рождения'
+  uz: "Iltimos, tug’ilgan kuningizni ko’rsating"
+
+age_checker_placeholder:
+  ru: 'ДД / ММ / ГГГГ'
+  uz: 'KK / OO / YYYY'
+
+age_checker_accept:
+  ru: 'Подтвердить'
+  uz: 'Tasdiqlash'
+
+age_checker_choose_lang:
+  ru: 'Выберите язык:'
+  uz: 'Tilni tanlang:'
+
+footer_copy:
+  ru: '© УЗБАТ. Все права защищены.'
+  uz: "© UZBAT. Barcha huquqlar himoyalangan."
+
+# Presentation
+present_form_title:
+  ru: 'Заполните форму и получите персональную презентацию'
+  uz: "Shaklni to'ldiring va shaxsiy taqdimotni oling"
+
+present_form_agreement:
+  ru: 'Я подтверждаю, что мне исполнилось 20 или более лет и я являюсь потребителем табака или иной никотиносодержащей продукции, и даю согласие на обработку моих <a href="{agreement}"" target="_blank">персональных данных</a>'
+  uz: "Men 20 va undan katta yoshda ekanligimni tasdiqlayman va tamaki yoki nikotin o'z ichiga olgan boshqa mahsulotlarning iste'molchisi ekanligimni tasdiqlayman va <a href='{agreement}' target='_blank'>shaxsiy ma'lumotlarimni qayta ishlashga roziman</a>."
+
+present_popup_success_title:
+  ru: 'Поздравляем!'
+  uz: "Tabriklaymiz!"
+
+present_popup_success_note:
+  ru: 'Ваша заявка успешно оформлена. Мы свяжемся с Вами в ближайшее время.'
+  uz: "Sizning so’rovingiz qabul qilindi. Biz tez orada Siz bilan bog'lanamiz."
+
+# Forms
+form_label_fullname:
+  ru: 'ФИО'
+  uz: 'FISh'
+
+form_placeholder_fullname:
+  ru: 'Введите ФИО'
+  uz: 'FIShni kiriting'
+
+form_label_phone:
+  ru: 'Номер телефона'
+  uz: 'Telefon raqami'
+
+form_placeholder_phone:
+  ru: 'Введите номер телефона'
+  uz: 'Введите номер телефона'
+
+form_label_adress:
+  ru: 'Адрес'
+  uz: 'Manzil'
+
+form_label_city:
+  ru: 'Город'
+  uz: 'Shahar'
+
+form_placeholder_adress:
+  ru: 'Введите ваш адрес'
+  uz: 'Manzilingizni kiriting'
+
+form_button_send:
+  ru: 'Отправить'
+  uz: 'Jo’natish'
+
+form_button_close:
+  ru: 'Закрыть'
+  uz: 'Yopish'
+
+form_error_required:
+  ru: 'Поле обязательно для заполнения'
+  uz: "To'ldirilishi shart bo'lgan maydo"
+
+form_error_min:
+  ru: 'Поле должно быть не менее {min} символов'
+  uz: "Maydon kamida {min} belgidan iborat bo'lishi kerak"
