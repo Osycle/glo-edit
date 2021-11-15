@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['carousel']">
+  <div :class="$style['carousel']" data-test>
     <swiper ref="carousel" :options="options">
       <swiper-slide v-for="item in items" :key="item.name">
         <Component :is="item.component" :name="item.name" />
@@ -45,10 +45,12 @@ export default {
   },
   data() {
     return {
-      items: [{
+      items: [
+      {
         name: 'newbee',
         component: 'LayoutNewbee',
-      },{
+      },
+      {
         name: 'timati',
         component: 'LayoutHeroCarouselItem',
       }, {

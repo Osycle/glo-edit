@@ -1,114 +1,185 @@
 <template>
   <div class="swiper-inbody-wrapper">
     <div class="swiper-inbody">
-      <img class="img-bg" src="~/assets/images/hero/newbee.jpg" alt="">
+      <picture class="picture-bg">
+        <source media="(max-width: 992px)" srcset="~/assets/images/hero/newbee-mobil.jpg" />
+        <img src="~/assets/images/hero/newbee.jpg"/>
+      </picture>
       <div class="flex-wrapper">
         <div>
           <div class="text-content">
             <h1>
-              Получи <br> обратно
+              Получи <br class="hidden-xs"/>
+              обратно
             </h1>
             <div class="price-content">100 000 сум</div>
-            <h3>за регистрацию <br> в телеграм боте*</h3>
+            <h3>
+              за регистрацию <br />
+              в телеграм боте*
+            </h3>
             <h4 class="mt-4">Только для новых пользователей**</h4>
           </div>
-          <Button class="button mt-4"
-            @click="$router.push({
-              name: `summer-leb___${$i18n.locale}`,
-            })">{{ $t('hero_button_text') }}
+        </div>
+        <div class="btn-content">
+          <Button
+            class="button"
+            @click="
+              $router.push({
+                name: `summer-leb___${$i18n.locale}`,
+              })
+            "
+            >{{ $t("hero_button_text") }}
           </Button>
         </div>
         <div class="f-content">
           <p>
-            <b>* Важно:</b> один потребитель – одно вознаграждение (в рамках данной акции можно получить вознаграждение только за одно устройство glo hyper+). <br>
+            <b>* Важно:</b> один потребитель – одно вознаграждение (в рамках
+            данной акции можно получить вознаграждение только за одно устройство
+            glo hyper+). <br />
             <b>Акция действует с 16 ноября по 31 декабря 2021 года.</b>
           </p>
-          <br>
-          <p>** Пользователь впервые купил устройство для нагревания табака glo, ранее не регистрировал устройство в боте и не активировал гарантию.</p>
+          <p>
+            ** Пользователь впервые купил устройство для нагревания табака glo,
+            ранее не регистрировал устройство в боте и не активировал гарантию.
+          </p>
         </div>
       </div>
-
     </div>
-
   </div>
 </template>
 <style lang="scss">
-  .swiper-inbody{
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    color: white;
-    .flex-wrapper{
-      padding: 60px 60px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+  @media (max-width: 991px){
+    .hidden-xs{
+      display: none;
     }
-    &:before{
-      content: "";
-      padding-top: calc((1080 / 1920) * 100%);
+}
+.swiper-inbody {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+  .flex-wrapper {
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    @media (max-width: 991px) {
       position: relative;
-      display: block;
-      width: 100%;
-      height: 0;
     }
-    p{
-      margin-bottom: 10px;
+  }
+  &:before {
+    content: "";
+    padding-top: calc((1080 / 1920) * 100%);
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 0;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .f-content {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .button {
+    text-transform: uppercase;
+    padding: 12px 40px;
+    span {
+      line-height: 0;
     }
-    .f-content{
-      margin-top: 10px;
-      margin-bottom: 50px;
-    }
-    .button{
+    @media (min-width: 992px) {
       border: 1px solid white;
-      font-size: 1rem;
-      text-transform: uppercase;
+      padding: 0.8em 4em;
       background-color: transparent;
-      padding-left: 60px;
-      padding-right: 60px;
+      font-size: 1em;
     }
-    .img-bg{
-      object-fit: cover;
+    @media (max-width: 991px) {
+      width: 100%;
+      text-transform: none;
+    }
+  }
+  .btn-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .picture-bg {
+    img{
       left: 0;
       z-index: -1;
       top: 0;
       width: 100%;
       position: absolute;
-    }
-    h1{
-      font-size: 6rem;
-      font-weight: 700;
-      line-height: 90%;
-      margin-bottom: 5px;
-      text-transform: uppercase;
-    }
-    .price-content{
-      font-size: 5rem;
-      font-weight: 700;
-      line-height: 90%;
-      color: #ffe400;
-      margin-bottom: 5px;
-    }
-    h3{
-      font-size: 2.5rem;
-      line-height: 110%;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    h4{
-      font-weight: 700;
-      font-size: 1.2rem;
+      object-fit: cover;
     }
   }
+  h1 {
+    font-size: 6.2em;
+    font-weight: 700;
+    line-height: 90%;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .price-content {
+    font-size: 5.5em;
+    font-weight: 700;
+    line-height: 100%;
+    color: #ffe400;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 2.5em;
+    line-height: 110%;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  @media (max-width: 991px) {
+    color: #2a2c2c;
+    .flex-wrapper {
+      padding: 30px 20px;
+      padding-bottom: 80px;
+    }
+    .price-content{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .btn-content{
+      order: 3;
+    }
+    &:before {
+      display: none;
+    }
+    .picture-bg {
+      img{
+        position: relative;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    font-size: 2vw;
+    h1{
+      font-size: 4.7em;
+    }
+  }
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
+  @media (min-width: 1441px) {
+    font-size: 23px;
+  }
+}
 </style>
 <style lang="scss" module>
-
-
 .hero {
   display: flex;
   flex-direction: column;
