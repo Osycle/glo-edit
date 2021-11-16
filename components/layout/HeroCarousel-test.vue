@@ -46,10 +46,10 @@ export default {
   data() {
     return {
       items: [
-      // {
-      //   name: 'newbee',
-      //   component: 'LayoutNewbee',
-      // },
+      {
+        name: 'newbee',
+        component: 'LayoutNewbee',
+      },
       {
         name: 'timati',
         component: 'LayoutHeroCarouselItem',

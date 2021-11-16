@@ -5,7 +5,7 @@
         <source media="(max-width: 992px)" srcset="~/assets/images/hero/newbee-mobil.jpg" />
         <img src="~/assets/images/hero/newbee.jpg"/>
       </picture>
-      <div class="flex-wrapper">
+      <div class="flex-wrapper" v-if="$i18n.locale == 'ru'">
         <div>
           <div class="text-content">
             <h1>
@@ -17,31 +17,65 @@
               за регистрацию <br />
               в телеграм боте*
             </h3>
-            <h4 class="mt-4">Только для новых пользователей**</h4>
+            <h4>Только для новых пользователей**</h4>
           </div>
         </div>
         <div class="btn-content">
-          <Button
-            class="button"
-            @click="
-              $router.push({
-                name: `summer-leb___${$i18n.locale}`,
-              })
-            "
-            >{{ $t("hero_button_text") }}
-          </Button>
+          <a href="https://t.me/glo_uz_bot" target="_blank" rel="nofollow" class="button">
+            {{ $t("hero_button_text") }}
+          </a>
         </div>
-        <div class="f-content">
+        <div class="f-content hidden-xs">
           <p>
-            <b>* Важно:</b> один потребитель – одно вознаграждение (в рамках
-            данной акции можно получить вознаграждение только за одно устройство
-            glo hyper+). <br />
+            <b>* Важно:</b> один потребитель – одно вознаграждение (в рамках данной акции можно получить вознаграждение только за одно устройство glo hyper+). 
+            <br />
             <b>Акция действует с 16 ноября по 31 декабря 2021 года.</b>
           </p>
           <p>
-            ** Пользователь впервые купил устройство для нагревания табака glo,
-            ранее не регистрировал устройство в боте и не активировал гарантию.
+            ** Пользователь впервые купил устройство для нагревания табака glo, ранее не регистрировал устройство в боте и не активировал гарантию.
           </p>
+        </div>
+        <div class="f-content hidden-md">
+          <p>
+            Акция действует с 16 ноября по 31 декабря 2021 года.<br />
+            * Важно: один потребитель – одно вознаграждение (в рамках данной акции можно получить вознаграждение только за одно устройство glo hyper+). 
+          </p>
+          <p>
+            ** Пользователь впервые купил устройство для нагревания табака glo, ранее не регистрировал устройство в боте и не активировал гарантию.
+          </p>
+        </div>
+      </div>
+      <div class="flex-wrapper" v-if="$i18n.locale == 'uz'">
+        <div>
+          <div class="text-content">
+            <h3>
+              Telegram botda* <br />
+              ro’yxatdan o’ting va
+            </h3>
+            <div class="price-content">100 000 so’m</div>
+            <h1>
+              qaytarib <br class="hidden-xs"/>
+              oling
+            </h1>
+            <h4>Faqat yangi foydalanuvchilar uchun**</h4>
+          </div>
+        </div>
+        <div class="btn-content">
+          <a href="https://t.me/glo_uz_bot" target="_blank" rel="nofollow" class="button">
+            {{ $t("hero_button_text") }}
+          </a>
+        </div>
+        <div class="f-content hidden-xs">
+          <p>
+            <b>* Muhim:</b> bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin).  <br />
+            <b>Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</b>
+          </p>
+          <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
+        </div>
+        <div class="f-content hidden-md">
+          <p> Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</p>
+          <p>* Muhim: bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin).</p>
+          <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
         </div>
       </div>
     </div>
@@ -52,7 +86,12 @@
     .hidden-xs{
       display: none;
     }
-}
+  }
+  @media (min-width: 992px){
+    .hidden-md{
+      display: none;
+    }
+  }
 .swiper-inbody {
   position: relative;
   overflow: hidden;
@@ -87,18 +126,45 @@
   .f-content {
     margin-top: 20px;
     margin-bottom: 15px;
+    @media (max-width: 991px){
+      margin-top: 6px;
+      margin-bottom: 6px;
+      p{
+        font-size: 9px;
+        margin-bottom: 5px;
+      }
+      font-size: 9px;
+      font-weight: 500;
+      b{
+        font-weight: 500;
+      }
+    }
   }
   .button {
-    text-transform: uppercase;
-    padding: 12px 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #e35205;
+    font-size: 20px;
+    color: #ffffff;
+    white-space: nowrap;
+    padding: 10px 30px;
+    min-height: 58px;
+    border: none;
+    text-decoration: none;
     span {
       line-height: 0;
     }
+    &:hover{
+      border-color: #fa6c21;
+      background-color: #fa6c21;
+    }
     @media (min-width: 992px) {
+
       border: 1px solid white;
       padding: 0.8em 4em;
-      background-color: transparent;
-      font-size: 1em;
+      background-color: transparent;    
     }
     @media (max-width: 991px) {
       width: 100%;
@@ -142,18 +208,23 @@
   h4 {
     font-weight: 700;
     font-size: 1.2em;
+    margin-top: 15px;
   }
   @media (max-width: 991px) {
     color: #2a2c2c;
+    h4{
+      margin-top: 10px;
+    }
     .flex-wrapper {
-      padding: 30px 20px;
+      padding: 20px 20px;
       padding-bottom: 80px;
     }
     .price-content{
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
     .btn-content{
+      margin-top: 0;
       order: 3;
     }
     &:before {
@@ -166,9 +237,9 @@
     }
   }
   @media (max-width: 600px) {
-    font-size: 2vw;
+    font-size: 1.7vw;
     h1{
-      font-size: 4.7em;
+      font-size: 4.4em;
     }
   }
   @media (min-width: 992px) {
