@@ -63,14 +63,14 @@
         </div>
         <div class="f-content hidden-xs">
           <p>
-            <b>* Muhim:</b> bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin).  <br />
+            <b>* Muhim:</b> bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin, cheklangan taklif bo'lgan moslamalaridan tashqari).  <br />
             <b>Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</b>
           </p>
           <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
         </div>
         <div class="f-content hidden-md">
           <p> Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</p>
-          <p>* Muhim: bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin).</p>
+          <p>* Muhim: bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin, cheklangan taklif bo'lgan moslamalaridan tashqari).</p>
           <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
         </div>
       </div>
