@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['wrapper']" v-if="!verify">
+  <div :class="$style['wrapper']" v-if="!verify" id="verify-block">
     <div :class="$style['modal']">
       <Logo :class="[$style['logo']]"/>
       <template v-if="!blocked">

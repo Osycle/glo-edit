@@ -36,7 +36,7 @@ export default {
   },
   watch: {
     visible(value) {
-      value ? this.swiper.autoplay.start() : this.swiper.autoplay.stop()
+      value ? this.swiper.autoplay.stop() : this.swiper.autoplay.stop()
     }
   },
   components: {

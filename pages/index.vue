@@ -1,5 +1,6 @@
 <template>
   <main>
+    
     <LazyHydrate when-visible>
       <LayoutHeroCarousel
           data-visible="hero"
@@ -59,6 +60,10 @@ export default {
       visible: {}
     }
   },
+  mounted(){
+    console.log(this);
+    
+  }, 
   methods: {
     visibilityChanged(isVisible, entry) {
       this.$set(this.visible, entry.target.dataset.visible, entry.isIntersecting)

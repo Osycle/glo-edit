@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['carousel']" data-test>
+  <div :class="$style['carousel']" data-test v-if="vis">
     <swiper ref="carousel" :options="options">
       <swiper-slide v-for="item in items" :key="item.name">
         <Component :is="item.component" :name="item.name" />
@@ -36,6 +36,7 @@ export default {
   },
   watch: {
     visible(value) {
+      console.log(value, "visible")
       value ? this.swiper.autoplay.start() : this.swiper.autoplay.stop()
     }
   },
@@ -45,6 +46,7 @@ export default {
   },
   data() {
     return {
+      vis: false,
       items: [
       {
         name: 'newbee',
@@ -80,6 +82,19 @@ export default {
     swiper() {
       return this.$refs.carousel.$swiper
     }
+  },
+  mounted(){
+    //console.log($)
+    var v = this;
+    var sI = setInterval(() => {
+      if(!document.getElementById('verify-block')){
+        v.vis = true
+        clearInterval(sI);
+      }else{
+        v.vis = false
+      }
+    }, 200);
+    
   },
   methods: {
     changeSlide(value) {
