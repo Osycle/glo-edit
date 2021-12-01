@@ -48,7 +48,7 @@ export default {
       items: [
       {
         name: 'newbee',
-        component: 'LayoutNewbee',
+        component: 'LayoutNewbeeTest',
       },
       {
         name: 'timati',
