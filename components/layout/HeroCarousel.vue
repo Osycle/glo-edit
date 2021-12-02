@@ -52,13 +52,15 @@ export default {
         name: 'newbee',
         component: 'LayoutNewbee',
       },
+      // {
+      //   name: 'timati',
+      //   component: 'LayoutHeroCarouselItem',
+      // }, 
+      // {
+      //   name: 'buzova',
+      //   component: 'LayoutHeroCarouselItem'
+      // }, 
       {
-        name: 'timati',
-        component: 'LayoutHeroCarouselItem',
-      }, {
-        name: 'buzova',
-        component: 'LayoutHeroCarouselItem'
-      }, {
         name: 'default',
         component: 'LayoutHero'
       },

@@ -45,7 +45,7 @@
               </span>
               </div>
             </div>
-            <div class="col-md-6 mb-5">
+            <!-- <div class="col-md-6 mb-5">
               <div :class="$style['form-label']">{{ $t('form_label_adress') }}</div>
               <Input
                       v-model="form.adress"
@@ -54,7 +54,7 @@
                       size="large"
                       outline
               />
-            </div>
+            </div> -->
             <div class="col-md-6 mb-5">
               <div :class="$style['form-label']">{{ $t('form_label_city') }} *</div>
               <Select
@@ -103,7 +103,7 @@ export default {
         phone: '',
         adress: '',
         city: '',
-        verify: false
+        verify: true
       }
     }
   },
