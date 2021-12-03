@@ -27,13 +27,16 @@
         </div>
         <div class="f-content hidden-xs">
           <p>
-            <b>* Важно:</b> один потребитель – одно вознаграждение (в рамках данной акции можно получить вознаграждение только за одно устройство glo hyper+, за исключением устройств из новогодней серии). 
+            <b>* Важно:</b> один потребитель – одно устройство (в рамках акции можно получить вознаграждение только за одно устройство  glo hyper+, за исключением устройств из новогодней серии).
+            <br />
+            <b>Акция действует с 16 ноября по 31 декабря 2021 года.</b>
           </p>
           <p>** Пользователь впервые купил устройство для нагревания табака glo, ранее не регистрировал устройство в боте и не активировал гарантию.</p>
         </div>
         <div class="f-content hidden-md">
           <p>
-            * Важно: один потребитель – одно вознаграждение (в рамках данной акции можно получить вознаграждение только за одно устройство glo hyper+, за исключением устройств из новогодней серии). 
+            Акция действует с 16 ноября по 31 декабря 2021 года.<br />
+            * Важно: один потребитель – одно устройство (в рамках акции можно получить вознаграждение только за одно устройство  glo hyper+, за исключением устройств из новогодней серии).
           </p>
           <p>** Пользователь впервые купил устройство для нагревания табака glo, ранее не регистрировал устройство в боте и не активировал гарантию.</p>
         </div>
@@ -60,14 +63,15 @@
         </div>
         <div class="f-content hidden-xs">
           <p>
-            <b>* Muhim:</b> bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin, cheklangan taklif bo'lgan moslamalaridan tashqari).  <br />
-            <b>Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</b>
+            <b>* Muhim:</b> bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, ushbu aksiyada bitta glo hyper+ moslama uchun Muqofor olish mumkin, Yangi yil taklifi bo’lgan moslamalari bundan mustasno).
+            <br />
+            <b>Aksiya 2021 yil 16-noyabrdan 31-dekabrgacha amal qiladi.</b>
           </p>
           <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
         </div>
         <div class="f-content hidden-md">
-          <p> Aksiya 2021 yil 15-noyabrdan 31-dekabrgacha amal qiladi.</p>
-          <p>* Muhim: bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, uhbu aksiyada faqat bitta glo hyper+ moslama uchun muqofot olish mumkin, cheklangan taklif bo'lgan moslamalaridan tashqari).</p>
+          <p> Aksiya 2021 yil 16-noyabrdan 31-dekabrgacha amal qiladi.</p>
+          <p>* Muhim: bitta foydalanuvchi – bitta muqofot (bu shuni anglatadiki, ushbu aksiyada bitta glo hyper+ moslama uchun Muqofor olish mumkin, Yangi yil taklifi bo’lgan moslamalari bundan mustasno).</p>
           <p>** Foydalanuvchi glo tamaki isitish moslamani birinchi marta sotib olgan, avval moslamani botda ro’yxatdan o’tqazmagan va kafolatni faollashtirmagan.</p>
         </div>
       </div>
@@ -119,6 +123,9 @@
   .f-content {
     margin-top: 20px;
     margin-bottom: 15px;
+    @media (min-width: 992px){
+      max-width: 50%;
+    }
     @media (max-width: 991px){
       margin-top: 6px;
       margin-bottom: 6px;
