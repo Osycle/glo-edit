@@ -95,7 +95,7 @@ export default {
       }else{
         v.vis = false
       }
-    }, 200);
+    }, 30);
     
   },
   methods: {

@@ -13,16 +13,6 @@
         <div :class="[$style['form'], isSended && $style['is-disable']]">
           <div class="row">
             <div class="col-md-6 mb-5">
-              <div :class="$style['form-label']">{{ $t('form_label_fullname') }}</div>
-              <Input
-                      v-model="form.fullname"
-                      :placeholder="$t('form_placeholder_fullname')"
-                      name="fullname"
-                      size="large"
-                      outline
-              />
-            </div>
-            <div class="col-md-6 mb-5">
               <div :class="$style['form-label']">{{ $t('form_label_phone') }} *</div>
               <Input
                       v-model="form.phone"
@@ -45,16 +35,6 @@
               </span>
               </div>
             </div>
-            <!-- <div class="col-md-6 mb-5">
-              <div :class="$style['form-label']">{{ $t('form_label_adress') }}</div>
-              <Input
-                      v-model="form.adress"
-                      :placeholder="$t('form_placeholder_adress')"
-                      name="adress"
-                      size="large"
-                      outline
-              />
-            </div> -->
             <div class="col-md-6 mb-5">
               <div :class="$style['form-label']">{{ $t('form_label_city') }} *</div>
               <Select
