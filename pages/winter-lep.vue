@@ -64,7 +64,7 @@
                 <a href="https://t.me/glo_uz_bot" target="_blank">Участвовать</a>
               </div>
               <div class="btn-opacity mv-4">
-                <a href="https://t.me/glo_uz_bot" target="_blank">Подробнее</a>
+                <a href="https://telegra.ph/USLOVIYA-ROZYGRYSHA-PRIZOV-PO-AKCII-ROZYGRYSH-PODARKOV-OT-glo-12-03" target="_blank">Подробнее</a>
               </div>
             </div>
           </div>
@@ -126,6 +126,19 @@ export default {
     .text-2{
       font-size: 10px;
       letter-spacing: 1px;
+    }
+    @media(max-width: 1280px){
+      .text-1{
+        font-size: 1.4vw;
+      }
+    }
+    @media(max-width: 768px){
+      .text-1{
+        font-size: 3vw;
+      }
+      .text-2{
+        font-size: 1.6vw;
+      }
     }
   }
   .winter-lep-image{

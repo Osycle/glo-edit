@@ -117,9 +117,9 @@ export default {
      width: calc(100% - 40px);
     }
     .text-content{
-      padding: 15px 20px;
+      padding: 20px 25px;
       //background-color: #e35205;
-      background-color: rgba(#131313, 0.8);
+      background-color: rgba(#131313, 0.5);
       transition: 0.2s ease;
       font-size: 14px;
       line-height: 100%;
@@ -128,15 +128,15 @@ export default {
       border-radius: 0;
       display: inline-block;
       text-align: center;
-      animation: radial-pulse 2s ease-in-out 0.5s infinite  ;
+      animation: radial-pulse 2s ease-in-out 0.5s infinite;
       &:hover{
         background-color: rgba(#131313, 1);
       }
       @media (max-width: 991px){
         border-radius: 0;
         height: auto;
-        padding: 20px 30px;
-        font-size: 20px;
+        padding: 15px 20px;
+        font-size: 14px;
         margin: auto;
       }
     }
