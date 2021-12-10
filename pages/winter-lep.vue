@@ -2,43 +2,31 @@
   <div>
     <div class="winter-lep">
       <div class="container">
-        <div class="winter-lep-wrapper row-4 flex mobile:fd-column-reverse desktop:jc-between">
+        <div class="winter-lep-wrapper row-4 flex mobile:fd-column-reverse desktop:jc-between" >
           <div class="col-lg-6 ph-4 mv-4">
-            <h1>НОВОГОДНИЙ РОЗЫГРЫШ!</h1>
-            <h3 class="color-2">УЧАВСТВУЙ И ВЫИГРЫВАЙ КРУТЫЕ ПРИЗЫ!</h3>
+            <h1>{{content[$i18n.locale].title}}</h1>
+            <h3 class="color-2 text-uppercase">{{content[$i18n.locale].title_summary}}</h3>
             <div class="winter-lep-items">
               <figure>
                 <picture>
                   <img src="~/assets/images/other/winter-items-1.png" alt="">
                 </picture>
-                <div class="cnt-content">
-                  <span>x5</span>
-                </div>
-                <div class="desc-content color-2">
-                  IPHONE 13 PRO
-                </div>
+                <div class="cnt-content"><span>x5</span></div>
+                <div class="desc-content color-2">IPHONE 13 PRO</div>
               </figure>
               <figure>
                 <picture>
                   <img src="~/assets/images/other/winter-items-2.png" alt="">
                 </picture>
-                <div class="cnt-content">
-                  <span>x5</span>
-                </div>
-                <div class="desc-content color-2">
-                  macbook pro
-                </div>
+                <div class="cnt-content"><span>x5</span></div>
+                <div class="desc-content color-2">macbook pro</div>
               </figure>
               <figure>
                 <picture>
                   <img src="~/assets/images/other/winter-items-3.png" alt="">
                 </picture>
-                <div class="cnt-content">
-                  <span>x200</span>
-                </div>
-                <div class="desc-content color-2">
-                  яндекс станция <br>“АЛИСА”
-                </div>
+                <div class="cnt-content"><span>x200</span></div>
+                <div class="desc-content color-2">яндекс станция <br>“АЛИСА”</div>
               </figure>
             </div>
             <div class="yetmore mobile:text-center mt-2 flex-adaptive">
@@ -46,25 +34,20 @@
                 <img src="~/assets/images/other/winter-other-1.png" alt="">
               </picture>
               <div class="desc-content desktop:ml-4">
-                <span class="h1">ГЛАВНЫЙ ПРИЗ!</span><br>
-                <span class="h3 color-2">2 ДНЯ VIP-ОТДЫХА НА <br>ГОРНОМ КУРОРТЕ УЗБЕКИСТАНА!</span>
+                <span class="h1">{{content[$i18n.locale].yetmore.title}}</span><br>
+                <span class="h3 color-2 text-uppercase" v-html="content[$i18n.locale].yetmore.title_summary"></span>
               </div>
             </div>
             <div class="circs mv-4 mobile:mv-15">
-              <div class="text-x8 color-1 text-uppercase">Главное условия для участия:</div>
-              <div class="text-x8">
-                Для участия в розыгрыше необходимо 
-                зарегистрироваться в телеграм боте и 
-                активировать гарантию на 
-                glo hyper+ new year edition!
-              </div>
+              <div class="text-x8 color-1 text-uppercase">{{content[$i18n.locale].circs.title}}</div>
+              <div class="text-x8">{{content[$i18n.locale].circs.description}}</div>
             </div>
             <div class="btn-content fw-6 mobile:ph-10">
               <div class="btn-def mv-4">
-                <a href="https://t.me/glo_uz_bot" target="_blank">Участвовать</a>
+                <a href="https://t.me/glo_uz_bot" target="_blank">{{content[$i18n.locale].buttons.share}}</a>
               </div>
               <div class="btn-opacity mv-4">
-                <a href="https://telegra.ph/USLOVIYA-ROZYGRYSHA-PRIZOV-PO-AKCII-ROZYGRYSH-PODARKOV-OT-glo-12-03" target="_blank">Подробнее</a>
+                <a href="https://telegra.ph/USLOVIYA-ROZYGRYSHA-PRIZOV-PO-AKCII-ROZYGRYSH-PODARKOV-OT-glo-12-03" target="_blank">{{content[$i18n.locale].buttons.more}}</a>
               </div>
             </div>
           </div>
@@ -72,7 +55,7 @@
             <div class="winter-lep-image relative">
               <span class="winter-stick">
                 <div class="text-1">NEW YEAR EDITION </div>
-                <div class="text-2">новогоднее предложение</div>
+                <div class="text-2 text-uppercase">{{content[$i18n.locale].picture_summary}}</div>
               </span>
               <picture>
                 <source srcset="~/assets/images/other/winter-1-mobile.jpg" media="(max-width: 991px)">
@@ -89,6 +72,46 @@
 <script>
 export default {
   layout: 'winter',
+  data(){
+    return {
+      content: {
+        ru: {
+          title: "НОВОГОДНИЙ РОЗЫГРЫШ!",
+          title_summary: "УЧАВСТВУЙ И ВЫИГРЫВАЙ КРУТЫЕ ПРИЗЫ!",
+          picture_summary: "новогоднее предложение",
+          yetmore: {
+            title: "ГЛАВНЫЙ ПРИЗ!",
+            title_summary: "2 ДНЯ VIP-ОТДЫХА НА <br>ГОРНОМ КУРОРТЕ УЗБЕКИСТАНА!"
+          },
+          circs: {
+            title: "Главное условия для участия:",
+            description: "Для участия в розыгрыше необходимо зарегистрироваться в телеграм боте и активировать гарантию на glo hyper+ new year edition!"
+          },
+          buttons:{
+            share: "Участвовать",
+            more: "Подробнее"
+          }
+        },
+        uz: {
+          title: "YANGI YIL SOVRINLI O’YIN",
+          title_summary: "Ishtirok eting va ajoyib sog’alarni yutib oling!",
+          picture_summary: "Yangi Yil taklifi",
+          yetmore: {
+            title: "BOSH SOVRIN!",
+            title_summary: "O’zbekistonning tog’li kurortida 2-kunlik VIP-dan olish!"
+          },
+          circs: {
+            title: "Ishtirok etishning asosiy sharti:",
+            description: "Sovrinli o'yinda ishtirok etish uchun telegram botda ro'yxatdan o'tish va yangi yil taklifi bo’lgan glo hyper+ ga  kafolatni faollashtirish kerak!"
+          },
+          buttons:{
+            share: "Ishtiroq etish",
+            more: "Batafsil ma’lumot"
+          }
+        }
+      }
+    }
+  },
   computed: {
     contacts() {
       return this.$store.state.app.contacts

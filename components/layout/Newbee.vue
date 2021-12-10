@@ -78,7 +78,7 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
   @media (max-width: 991px){
     .hidden-xs{
       display: none;

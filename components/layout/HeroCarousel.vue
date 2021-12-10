@@ -49,13 +49,13 @@ export default {
       vis: false,
       items: [
       {
+        name: 'winter',
+        component: 'LayoutWinter',
+      }, 
+      {
         name: 'newbee',
         component: 'LayoutNewbee',
       },
-      // {
-      //   name: 'timati',
-      //   component: 'LayoutHeroCarouselItem',
-      // }, 
       // {
       //   name: 'buzova',
       //   component: 'LayoutHeroCarouselItem'

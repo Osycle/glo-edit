@@ -31,12 +31,20 @@
 export default {
   data() {
     return {
-      products: [{
+      products: [
+        {
+        name: "glo HYPER+ New Year Edition",
+        image: require('assets/images/products/product-polar.png'),
+        limit: true,
+        price: 200000
+      },
+      {
         name: this.$t('products_item_buzova'),
         image: require('assets/images/products/product-buzova.png'),
         limit: true,
         price: 200000
-      }, {
+      }, 
+      {
         name: this.$t('products_item_timati'),
         image: require('assets/images/products/product-timati.png'),
         limit: true,

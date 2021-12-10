@@ -7,7 +7,7 @@
       </a>
     </div>
     <LazyHydrate when-visible>
-      <LayoutHeroCarouselTest
+      <LayoutHeroCarousel
           data-visible="hero"
           :visible="visible.hero"
           v-observe-visibility="visibilityChanged"
@@ -94,7 +94,7 @@ export default {
   }
   @keyframes radial-pulse{
     0% {
-        box-shadow: 0 0 0 0 rgba(black, 0.2);
+        box-shadow: 0 0 0 0 rgba(#E35205, 0.2);
     }
     100% {
         box-shadow: 0 0 0 20px transparent;
@@ -107,7 +107,7 @@ export default {
     right: 20px;
     bottom: 20px;
     text-align: center;
-    animation: toblock 00s linear 0s 1;
+    animation: toblock 10s linear 0s 1;
     a{
       text-decoration: none;
       color: white; 
@@ -119,7 +119,7 @@ export default {
     .text-content{
       padding: 20px 25px;
       //background-color: #e35205;
-      background-color: rgba(#131313, 0.5);
+      background-color: rgba(#E35205, 0.5);
       transition: 0.2s ease;
       font-size: 14px;
       line-height: 100%;
@@ -130,7 +130,7 @@ export default {
       text-align: center;
       animation: radial-pulse 2s ease-in-out 0.5s infinite;
       &:hover{
-        background-color: rgba(#131313, 1);
+        background-color: rgba(#E35205, 1);
       }
       @media (max-width: 991px){
         border-radius: 0;
