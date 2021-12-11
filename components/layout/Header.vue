@@ -117,7 +117,7 @@ export default {
       return this.$store.state.app.contacts
     },
     hiddenMenuWhenContestPage() {
-      return !this.$route.name.startsWith('summer-leb')
+      return !this.$route.name.startsWith('winter-lep')
     },
   },
   methods: {
