@@ -2,21 +2,20 @@
   <div class="swiper-inbody-wrapper">
     <div class="swiper-inbody bnr-winter">
       <picture class="picture-bg">
-        <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/winter-uz-mobile.jpg" />
-        <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/winter-mobile.jpg" />
-        <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/winter-uz.jpg"/>
-        <img v-else src="~/assets/images/hero/winter.jpg"/>
+        <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
+        <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
+        <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/recycling.jpg"/>
+        <img v-else src="~/assets/images/hero/recycling-picture.png"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
         <div>
-          <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
+          <span class="text-1 fw-8">Вы сдаёте, <br>мы перерабатываем</span>
         </div>
-        <div class="mv-5">
-          <div class="text-2 text-uppercase fw-8 color-3 lh-0">новогодний розыгрыш!</div>
-          <div class="text-3 text-uppercase fw-7">участвуй и выигрывай крутые призы!</div>
+        <div class="mv-5 box-md-3 box-lg-2">
+          <div class="text-3 lh-5 fw-6">Устаревшее или неисправное устройство можно сдать на переработк</div>
         </div>
         <div class="btn-content">
-          <nuxt-link to="/winter-lep/" class="button">Подробнее</nuxt-link>
+          <nuxt-link to="/winter-lep/" class="button">Пункты переработки</nuxt-link>
         </div>
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
@@ -74,14 +73,6 @@
         height: 383px;
       }
     }
-    // &:before {
-    //   content: "";
-    //   padding-top: calc((1080 / 1920) * 100%);
-    //   position: relative;
-    //   display: block;
-    //   width: 100%;
-    //   height: 0;
-    // }
     p {
       font-size: 14px;
       margin-bottom: 10px;
@@ -98,8 +89,8 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      //background-color: #e35205;
-      background-image: linear-gradient(to right, #8221df, #117f66);
+      background-color: black;
+      //background-image: linear-gradient(to right, #8221df, #117f66);
       font-size: 30px;
       color: #ffffff;
       white-space: nowrap;
@@ -112,8 +103,8 @@
         line-height: 0;
       }
       &:hover{
-        border-color: #fa6c21;
-        background-color: #fa6c21;
+        background-color: white;
+        color: black;
       }
       @media (max-width: 991px) {
         width: 100%;
@@ -130,7 +121,8 @@
         //position: absolute;
         object-fit: cover;
         object-position: right;
-        height: calc(100vh - 70px);
+        //height: calc(100vh - 70px);
+        height: 900px;
       }
     }
     @media (max-width: 991px) {
