@@ -65,6 +65,17 @@ export default {
       visible: {}
     }
   },
+  head() {
+    return {
+      title: "Электронные сигареты Glo Hyper в Узбекистане &#11088; купить систему нагревания табака Glo (Гло) в Ташкенте",
+      meta: [
+        {
+          name: "description",
+          content: "Официальный сайт продажи систем для нагрева табака Glo в Ташкенте и Узбекистане &#11088; от Бритиш Американ Тобакко. Устройств нагревания табака и стики для Гло (Glo) можно купить в Ташкенте. &#10133; Бесплатный тест драйв"
+        },
+      ],
+    }
+  },
   methods: {
     visibilityChanged(isVisible, entry) {
       this.$set(this.visible, entry.target.dataset.visible, entry.isIntersecting)

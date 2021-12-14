@@ -12,7 +12,7 @@
           <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
         </div>
         <div class="mv-5">
-          <div class="text-2 text-uppercase fw-8 color-3 lh-0">новогодний розыгрыш!</div>
+          <h1 class="text-2 text-uppercase fw-8 color-3 lh-0">новогодний розыгрыш!</h1>
           <div class="text-3 text-uppercase fw-7">участвуй и выигрывай крутые призы!</div>
         </div>
         <div class="btn-content">

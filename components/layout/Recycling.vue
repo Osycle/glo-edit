@@ -5,7 +5,7 @@
         <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
         <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
         <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/recycling.jpg"/>
-        <img v-else src="~/assets/images/hero/recycling-picture.png"/>
+        <img v-else src="~/assets/images/hero/recycling-1.png"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
         <div>

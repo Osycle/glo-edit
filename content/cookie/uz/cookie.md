@@ -1,5 +1,5 @@
 ---
-title: Cookie siyosati
+title: COOKIE FAYLLARI SIYOSATI
 ---
 
 ## COOKIE FAYLLARI SIYOSATI

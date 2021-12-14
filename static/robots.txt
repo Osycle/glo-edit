@@ -6,6 +6,8 @@ Sitemap: https://glo.uz/sitemap.xml
 
 User-agent: Googlebot
 Sitemap: https://glo.uz/sitemap.xml
+Disallow: https://glo.uz/cookie/
+Disallow: https://glo.uz/cookie/uz
 Allow: /*.jpg
 Allow: /*.gif
 Allow: /*.png

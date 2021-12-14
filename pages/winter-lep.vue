@@ -112,6 +112,17 @@ export default {
       }
     }
   },
+  head() {
+    return {
+      title: "На официальном сайте Glo-акции и подарки на Новый год",
+      meta: [
+        {
+          name: "description",
+          content: "Выйграте себе подарок на Новый год крутой гаджет или VIP путешествие"
+        },
+      ],
+    }
+  },
   computed: {
     contacts() {
       return this.$store.state.app.contacts

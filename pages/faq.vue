@@ -1,12 +1,12 @@
 <template>
   <div class="faq">
     <div class="container">
-      <div
+      <h1
               class="title"
               v-scroll-reveal
               data-title-line>
         {{ $t('faq_title') }}
-      </div>
+      </h1>
       <div class="image" v-lazy-load v-scroll-reveal="{ origin: 'right' }">
         <img data-src="~/assets/images/faq-image.png" alt="" data-aos="fade-left">
       </div>
@@ -155,6 +155,17 @@
     data() {
       return {
         selected: 0,
+      }
+    },
+    head() {
+      return {
+        title: "Система нагревания табака Гло в  Узбекистане – вопросы и ответы о Glo Hyper Plus",
+        meta: [
+          {
+            name: "description",
+            content: "Glo – это инновационная технология нагревания табака, созданная в Великобритании. Основная особенность Glo Hyper является нагревание без его горения."
+          },
+        ],
       }
     },
     computed: {
