@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['products']" id="catalog">
     <div class="container">
-      <div :class="$style['title']" data-title-line>{{ $t('products_title') }}</div>
+      <h2 :class="$style['title']" data-title-line>{{ $t('products_title') }}</h2>
       <div :class="$style['list']">
         <div class="row">
           <div class="col-md-6 col-lg-4" v-for="(item, index) in products" :key="index">
@@ -9,10 +9,10 @@
               <div :class="$style['item-image']" v-lazy-load>
                 <img width="248" height="673" :data-src="item.image" :alt="item.name">
               </div>
-              <div :class="$style['item-title']">
+              <h5 :class="$style['item-title']">
                 <div :class="$style['item-limit']" v-if="item.limit">{{ $t('products_limit') }}</div>
                 {{ item.name }}
-              </div>
+              </h5>
               <div :class="$style['item-price']">
                 {{ formatPrice(item.price) }} {{ $t('currency') }} *
               </div>

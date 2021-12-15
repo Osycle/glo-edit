@@ -35,6 +35,7 @@ export default {
       title: "Glo.uz-Cookie",
       meta: [
         {
+          hid: 'description',
           name: "description",
           content: "Система нагревания табака Glo (Гло) в Ташкенте и Узбекистане – официальный сайт устройств для нагрева табака Glo в Ташкенте и Узбекистане"
         },

@@ -1,16 +1,16 @@
 export default {
   head() {
     return {
-      title: this.$t('meta_title'),
+      //title: this.$t('meta_title'),
       htmlAttrs: {
         lang: this.$i18n.locale,
       },
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('meta_description'),
-        },
+       meta: [
+        // {
+        //   hid: 'description',
+        //   name: 'description',
+        //   content: this.$t('meta_description'),
+        // },
         {
           hid: 'keywords',
           name: 'keywords',
@@ -20,7 +20,8 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: `${process.env.HOST_NAME}${this.$route.path}`,
+          href: `https://glo.uz${this.$route.path}`,
+          //href: `${process.env.HOST_NAME}${this.$route.path}`,
         },
       ],
     }

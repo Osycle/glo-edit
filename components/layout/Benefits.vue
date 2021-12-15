@@ -29,9 +29,9 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <div :class="$style['title']" data-title-line>
+          <h2 :class="$style['title']" data-title-line>
             {{ $t('benefits_title') }}
-          </div>
+          </h2>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3">
           <div :class="$style['item']" v-scroll-reveal>

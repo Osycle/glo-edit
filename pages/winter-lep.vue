@@ -117,6 +117,7 @@ export default {
       title: "На официальном сайте Glo-акции и подарки на Новый год",
       meta: [
         {
+          hid: 'description',
           name: "description",
           content: "Выйграте себе подарок на Новый год крутой гаджет или VIP путешествие"
         },

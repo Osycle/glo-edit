@@ -3,6 +3,8 @@ Sitemap: https://glo.uz/sitemap.xml
 
 User-Agent: Yandex
 Sitemap: https://glo.uz/sitemap.xml
+Disallow: https://glo.uz/cookie/
+Disallow: https://glo.uz/cookie/uz
 
 User-agent: Googlebot
 Sitemap: https://glo.uz/sitemap.xml

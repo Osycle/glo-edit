@@ -4,9 +4,9 @@
       <div class="container">
         <div class="row" >
           <div class="col-12">
-            <div :class="$style['title']" data-title-line>
+            <h2 :class="$style['title']" data-title-line>
               {{ $t('find_store_title_1') }}
-            </div>
+            </h2>
           </div>
         </div>
         <div class="row flex-row-reverse justify-content-between">

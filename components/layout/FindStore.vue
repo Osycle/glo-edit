@@ -4,9 +4,9 @@
       <div :class="$style['find']" id="store">
         <div class="row" v-scroll-reveal>
           <div class="col-12">
-            <div :class="$style['title']" data-title-line>
+            <h2 :class="$style['title']" data-title-line>
               {{ $t('find_store_title_2') }}
-            </div>
+            </h2>
           </div>
           <div class="col-md-6">
             <div :class="$style['note']">{{ $t('find_store_note') }}</div>

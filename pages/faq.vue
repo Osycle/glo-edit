@@ -19,8 +19,8 @@
               class="faq-tabs">
 
           <tab :name="$t('faq_link_about')">
-            <div
-                class="faq-item" :class="selected === index && 'is-selected'"
+            <div class="faq-item" :class="selected === index && 'is-selected'"
+                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                 v-for="(item, index) in listAbout"
                 :key="`faq-${index}`"
             >
@@ -31,12 +31,15 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.304612C0.683418 -0.0859123 1.31658 -0.0859123 1.70711 0.304612L6 4.59751L10.2929 0.304612C10.6834 -0.0859118 11.3166 -0.0859118 11.7071 0.304612C12.0976 0.695137 12.0976 1.3283 11.7071 1.71883L6.70711 6.71883C6.51957 6.90636 6.26522 7.01172 6 7.01172C5.73478 7.01172 5.48043 6.90636 5.29289 6.71883L0.292893 1.71883C-0.0976311 1.3283 -0.0976311 0.695136 0.292893 0.304612Z" fill="currentColor"/>
                   </svg>
                 </div>
-                {{ $t(`faq_about_question_${item}`) }}
+                <h4 itemprop="name">{{ $t(`faq_about_question_${item}`) }}</h4>
               </div>
               <TransitionExpand>
                 <div class="faq-content"
+                    itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                     v-if="selected === index">
-                  <div class="faq-content-inner" v-html="$t(`faq_about_answer_${item}`)">
+                  <div class="faq-content-inner" 
+                    itemprop="text"
+                    v-html="$t(`faq_about_answer_${item}`)">
                   </div>
                 </div>
               </TransitionExpand>
@@ -45,6 +48,7 @@
 
           <tab :name="$t('faq_link_char')">
             <div class="faq-item" :class="selected === index && 'is-selected'"
+                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                 v-for="(item, index) in listChar"
                 :key="`faq-${index}`">
               <div class="faq-headline"
@@ -54,12 +58,15 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.304612C0.683418 -0.0859123 1.31658 -0.0859123 1.70711 0.304612L6 4.59751L10.2929 0.304612C10.6834 -0.0859118 11.3166 -0.0859118 11.7071 0.304612C12.0976 0.695137 12.0976 1.3283 11.7071 1.71883L6.70711 6.71883C6.51957 6.90636 6.26522 7.01172 6 7.01172C5.73478 7.01172 5.48043 6.90636 5.29289 6.71883L0.292893 1.71883C-0.0976311 1.3283 -0.0976311 0.695136 0.292893 0.304612Z" fill="currentColor"/>
                   </svg>
                 </div>
-                {{ $t(`faq_char_question_${item}`) }}
+                <h4 itemprop="name">{{ $t(`faq_char_question_${item}`) }}</h4>
               </div>
               <TransitionExpand>
                 <div class="faq-content"
+                    itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                     v-if="selected === index">
-                  <div class="faq-content-inner" v-html="$t(`faq_char_answer_${item}`)">
+                  <div class="faq-content-inner" 
+                    itemprop="text"
+                    v-html="$t(`faq_char_answer_${item}`)">
                   </div>
                 </div>
               </TransitionExpand>
@@ -68,6 +75,7 @@
 
           <tab :name="$t('faq_link_search')">
             <div class="faq-item" :class="selected === index && 'is-selected'"
+                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                 v-for="(item, index) in listSearch"
                 :key="`faq-${index}`">
               <div class="faq-headline"
@@ -77,12 +85,15 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.304612C0.683418 -0.0859123 1.31658 -0.0859123 1.70711 0.304612L6 4.59751L10.2929 0.304612C10.6834 -0.0859118 11.3166 -0.0859118 11.7071 0.304612C12.0976 0.695137 12.0976 1.3283 11.7071 1.71883L6.70711 6.71883C6.51957 6.90636 6.26522 7.01172 6 7.01172C5.73478 7.01172 5.48043 6.90636 5.29289 6.71883L0.292893 1.71883C-0.0976311 1.3283 -0.0976311 0.695136 0.292893 0.304612Z" fill="currentColor"/>
                   </svg>
                 </div>
-                {{ $t(`faq_search_question_${item}`) }}
+                <h4 itemprop="name">{{ $t(`faq_search_question_${item}`) }}</h4>
               </div>
               <TransitionExpand>
                 <div class="faq-content"
+                    itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                     v-if="selected === index">
-                  <div class="faq-content-inner" v-html="$t(`faq_search_answer_${item}`)">
+                  <div class="faq-content-inner" 
+                    itemprop="text"
+                    v-html="$t(`faq_search_answer_${item}`)">
                   </div>
                 </div>
               </TransitionExpand>
@@ -91,6 +102,7 @@
 
           <tab :name="$t('faq_link_garanty')">
             <div class="faq-item" :class="selected === index && 'is-selected'"
+                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                 v-for="(item, index) in listGaranty"
                 :key="`faq-${index}`">
               <div class="faq-headline"
@@ -100,12 +112,15 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.304612C0.683418 -0.0859123 1.31658 -0.0859123 1.70711 0.304612L6 4.59751L10.2929 0.304612C10.6834 -0.0859118 11.3166 -0.0859118 11.7071 0.304612C12.0976 0.695137 12.0976 1.3283 11.7071 1.71883L6.70711 6.71883C6.51957 6.90636 6.26522 7.01172 6 7.01172C5.73478 7.01172 5.48043 6.90636 5.29289 6.71883L0.292893 1.71883C-0.0976311 1.3283 -0.0976311 0.695136 0.292893 0.304612Z" fill="currentColor"/>
                   </svg>
                 </div>
-                {{ $t(`faq_garanty_question_${item}`) }}
+                <h4 itemprop="name">{{ $t(`faq_garanty_question_${item}`) }}</h4>
               </div>
               <TransitionExpand>
                 <div class="faq-content"
+                    itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                     v-if="selected === index">
-                  <div class="faq-content-inner" v-html="$t(`faq_garanty_answer_${item}`)">
+                  <div class="faq-content-inner" 
+                    itemprop="text"
+                    v-html="$t(`faq_garanty_answer_${item}`)">
                   </div>
                 </div>
               </TransitionExpand>
@@ -114,6 +129,7 @@
 
           <tab :name="$t('faq_link_care')">
             <div class="faq-item" :class="selected === index && 'is-selected'"
+                itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
                 v-for="(item, index) in listCare"
                 :key="`faq-${index}`">
               <div class="faq-headline"
@@ -123,12 +139,15 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.304612C0.683418 -0.0859123 1.31658 -0.0859123 1.70711 0.304612L6 4.59751L10.2929 0.304612C10.6834 -0.0859118 11.3166 -0.0859118 11.7071 0.304612C12.0976 0.695137 12.0976 1.3283 11.7071 1.71883L6.70711 6.71883C6.51957 6.90636 6.26522 7.01172 6 7.01172C5.73478 7.01172 5.48043 6.90636 5.29289 6.71883L0.292893 1.71883C-0.0976311 1.3283 -0.0976311 0.695136 0.292893 0.304612Z" fill="currentColor"/>
                   </svg>
                 </div>
-                {{ $t(`faq_care_question_${item}`) }}
+                <h4 itemprop="name">{{ $t(`faq_care_question_${item}`) }}</h4>
               </div>
               <TransitionExpand>
                 <div class="faq-content"
+                    itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                     v-if="selected === index">
-                  <div class="faq-content-inner" v-html="$t(`faq_care_answer_${item}`)">
+                  <div class="faq-content-inner" 
+                    itemprop="text"
+                    v-html="$t(`faq_care_answer_${item}`)">
                   </div>
                 </div>
               </TransitionExpand>
@@ -162,6 +181,7 @@
         title: "Система нагревания табака Гло в  Узбекистане – вопросы и ответы о Glo Hyper Plus",
         meta: [
           {
+            hid: 'description',
             name: "description",
             content: "Glo – это инновационная технология нагревания табака, созданная в Великобритании. Основная особенность Glo Hyper является нагревание без его горения."
           },

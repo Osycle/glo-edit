@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5" v-scroll-reveal>
-          <div :class="$style['title']" data-title-line v-html="$t('fact_details_title')" ></div>
+          <h2 :class="$style['title']" data-title-line v-html="$t('fact_details_title')" ></h2>
           <div :class="$style['note']">{{ $t('fact_details_content') }}</div>
         </div>
         <div class="col-lg-7">

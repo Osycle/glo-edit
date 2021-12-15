@@ -1,12 +1,12 @@
 <template>
   <div :class="$style['faq']">
     <div class="container">
-      <div
+      <h2
         :class="$style['title']"
         v-scroll-reveal
         data-title-line>
         {{ $t('faq_title') }}
-      </div>
+      </h2>
       <div :class="$style['image']" v-lazy-load v-scroll-reveal="{ origin: 'right' }">
         <img data-src="~/assets/images/faq-image.png" alt="" data-aos="fade-left">
       </div>
@@ -25,6 +25,7 @@
         </div>
         <div class="col-md-6">
           <div
+            itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"
             :class="[$style['faq-item'], selected === index && $style['is-selected']]"
             v-for="(item, index) in list"
             :key="`faq-${index}`"
@@ -49,14 +50,17 @@
                   />
                 </svg>
               </div>
-              {{ $t(`faq_item_question_${item}`) }}
+              <h4 itemprop="name">{{ $t(`faq_item_question_${item}`) }}</h4>
             </div>
             <TransitionExpand>
               <div
+                itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                 :class="$style['faq-content']"
                 v-if="selected === index"
               >
-                <div :class="$style['faq-content-inner']" v-html="$t(`faq_item_answer_${item}`)">
+                <div 
+                  itemprop="text"
+                  :class="$style['faq-content-inner']" v-html="$t(`faq_item_answer_${item}`)">
                 </div>
               </div>
             </TransitionExpand>

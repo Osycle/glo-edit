@@ -7,7 +7,7 @@
         </div>
         <div class="col-sm">
           <div :class="$style['content']">
-            <div :class="$style['title']" data-title-line v-scroll-reveal>{{ $t('about_title') }}</div>
+            <h2 :class="$style['title']" data-title-line v-scroll-reveal>{{ $t('about_title') }}</h2>
             <div :class="$style['note']" v-html="$t('about_content_1')" v-scroll-reveal></div>
             <div :class="$style['note']" v-html="$t('about_content_2')" v-scroll-reveal></div>
           </div>
