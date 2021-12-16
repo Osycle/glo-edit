@@ -2,14 +2,14 @@
   <div class="swiper-inbody-wrapper">
     <div class="swiper-inbody bnr-winter">
       <picture class="picture-bg">
-        <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
-        <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling.jpg" />
-        <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/recycling.jpg"/>
+        <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/recycling-1.png" />
+        <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling-1.png" />
+        <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/recycling-1.png"/>
         <img v-else src="~/assets/images/hero/recycling-1.png"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
         <div>
-          <span class="text-1 fw-8">Вы сдаёте, <br>мы перерабатываем</span>
+          <span class="text-1 fw-8">Вы сдаёте,<br>мы перерабатываем</span>
         </div>
         <div class="mv-5 box-md-3 box-lg-2">
           <div class="text-3 lh-5 fw-6">Устаревшее или неисправное устройство можно сдать на переработк</div>
@@ -20,14 +20,13 @@
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
         <div>
-          <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
+          <span class="text-1 fw-8">Siz topshirasiz,<br>biz qayta ishlaymiz</span>
         </div>
-        <div class="mv-5">
-          <div class="text-2 text-uppercase fw-8 color-3 lh-0">Yangi  yil  sovrinli  o'yin!</div>
-          <div class="text-3 text-uppercase fw-7" style="font-size: 1.5em;">IshtiroK eting va ajoyib sovg'alarni yutib oling!</div>
+        <div class="mv-5 box-md-3 box-lg-2">
+          <div class="text-3 lh-5 fw-6">Eskirgan yoki nuqsonli moslamangizni qayta ishlanishiga topshir</div>
         </div>
         <div class="btn-content">
-          <nuxt-link to="/uz/winter-lep/" class="button">Batafsil ma'lumot</nuxt-link>
+          <nuxt-link to="/winter-lep/" class="button">Qayta ishlash punktlari</nuxt-link>
         </div>
       </div>
     </div>
@@ -73,6 +72,7 @@
         height: 383px;
       }
     }
+
     p {
       font-size: 14px;
       margin-bottom: 10px;
@@ -113,16 +113,33 @@
       }
     }
     .picture-bg {
-      img{
-        left: 0;
-        z-index: -1;
-        top: 0;
+      &:before {
+        content: "";
+        background-color: #45d28e;
+        padding-top: calc((1080 / 1920) * 100%);
+        position: relative;
+        display: block;
         width: 100%;
-        //position: absolute;
-        object-fit: cover;
+        height: 0;
+        @media (min-width: 992px){
+          padding-top: calc(100vh - 120px);
+        }
+      }
+      img{
+        right: 0;
+        //z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+        //width: 100%;
+        position: absolute;
+        //object-fit: cover;
         object-position: right;
         //height: calc(100vh - 70px);
-        height: 900px;
+        height: 80%;
+        @media (max-width: 991px){
+          right: 50%;
+          transform: translate(50%, -50%);
+        }
       }
     }
     @media (max-width: 991px) {
@@ -135,13 +152,12 @@
         margin-top: 0;
         order: 3;
       }
-      &:before {
-        display: none;
-      }
       .picture-bg {
+        display: block;
+        position: relative;
         img{
-          position: relative;
-          height: auto;
+          //position: relative;
+          //height: auto;
         }
       }
     }
