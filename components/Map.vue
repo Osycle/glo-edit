@@ -34,6 +34,9 @@
       <div class="col-lg-auto mb-3">
         <Checkbox value="devices" v-model="category" :label="$t('find_store_devices')" />
       </div>
+      <div class="col-lg-auto mb-3">
+        <Checkbox value="recycling" v-model="category" label="Переработка" />
+      </div>
       <!-- <div class="col-lg-auto mb-3">
         <Checkbox value="sticks" v-model="category" :label="$t('find_store_sticky')" />
       </div> -->
@@ -53,7 +56,7 @@
     },
     data() {
       return {
-        category: ['devices'],
+        category: ['devices', 'recycling'],
         search: '',
       }
     },
@@ -89,7 +92,111 @@
             type: 'FeatureCollection',
             features: []
           }
-
+            var markers = [
+              {
+                type: "Feature",
+                id: 50000,
+                geometry: {
+                    type: "Point",
+                    coordinates: [41.26998, 69.26226]
+                },
+                properties: {
+                  balloonContent: "<strong>Корзинка</strong>",
+                  data: {
+                    recycling: "true",
+                  }
+                },
+                options: {
+                  iconLayout: 'default#image',
+                  iconImageHref: require('~/assets/images/pin-re.png'),
+                  iconImageSize: [38, 48],
+                  iconImageOffset: [-38 / 2, -48],
+                }
+              },
+              {
+                type: "Feature",
+                id: 50001,
+                geometry: {
+                    type: "Point",
+                    coordinates: [41.339912, 69.253627]
+                },
+                properties: {
+                  balloonContent: "<strong>Ривьера</strong>",
+                  data: {
+                    recycling: "true",
+                  }
+                },
+                options: {
+                  iconLayout: 'default#image',
+                  iconImageHref: require('~/assets/images/pin-re.png'),
+                  iconImageSize: [38, 48],
+                  iconImageOffset: [-38 / 2, -48],
+                }
+              },
+              {
+                type: "Feature",
+                id: 50002,
+                geometry: {
+                    type: "Point",
+                    coordinates: [41.2385552, 69.3291113]
+                },
+                properties: {
+                  balloonContent: "<strong>ТЦ Компас</strong>",
+                  data: {
+                    recycling: "true",
+                  }
+                },
+                options: {
+                  iconLayout: 'default#image',
+                  iconImageHref: require('~/assets/images/pin-re.png'),
+                  iconImageSize: [38, 48],
+                  iconImageOffset: [-38 / 2, -48],
+                }
+              },
+              {
+                type: "Feature",
+                id: 50003,
+                geometry: {
+                    type: "Point",
+                    coordinates: [41.3120002, 69.2908010]
+                },
+                properties: {
+                  balloonContent: "<strong>Ц1</strong>",
+                  data: {
+                    recycling: "true",
+                  }
+                },
+                options: {
+                  iconLayout: 'default#image',
+                  iconImageHref: require('~/assets/images/pin-re.png'),
+                  iconImageSize: [38, 48],
+                  iconImageOffset: [-38 / 2, -48],
+                }
+              },
+              {
+                type: "Feature",
+                id: 50004,
+                geometry: {
+                    type: "Point",
+                    coordinates: [41.3118788, 69.2738592]
+                },
+                properties: {
+                  balloonContent: "<strong>Зарафшан</strong>",
+                  data: {
+                    recycling: "true",
+                  }
+                },
+                options: {
+                  iconLayout: 'default#image',
+                  iconImageHref: require('~/assets/images/pin-re.png'),
+                  iconImageSize: [38, 48],
+                  iconImageOffset: [-38 / 2, -48],
+                }
+              },
+            ];
+            markers.forEach(element => {
+              newFeature.features.push(element)
+            });
           const searchArray = []
           const searchControl = new ymaps.control.SearchControl({
             options: {
@@ -118,6 +225,7 @@
               properties: {
                 balloonContent: `<strong>${point.name}</strong><br>${point[`adress_${locale}`]}<br>${point[`guide_${locale}`]}`,
                 data: {
+                  recycling: "false",
                   sticks: point.sticks,
                   devices: point.devices,
                 }
@@ -133,6 +241,7 @@
             searchArray.push(point[`adress_${locale}`])
             newFeature.features.push(obj)
           })
+
 
           const findAdress = (arr, find) => {
             return arr.filter(function (value) {
@@ -190,18 +299,27 @@
             )
           })
 
-          this.$on('changeCategody', (value) => {
-            const res = []
-            value.forEach(key => {
-              res.push(`properties.data.${key} === 'true'`)
+
+
+            //objectManager.add({type: "FeatureCollection",  "features": markers});
+            //map.geoObjects.add(objectManager);
+            window.objectManager = objectManager;
+
+            this.$on('changeCategody', (value) => {
+              const res = []
+              value.forEach(key => {
+                res.push(`properties.data.${key} == 'true'`)
+              })
+              if(res.length > 0) {
+                console.log(res.join(' || '))
+                objectManager.setFilter(res.join(' || '))
+              } else {
+                objectManager.setFilter('id < 0')
+              }
+              
             })
 
-            if(res.length > 0) {
-              objectManager.setFilter(res.join(' || '))
-            } else {
-              objectManager.setFilter('id < 0')
-            }
-          })
+
 
         })
 

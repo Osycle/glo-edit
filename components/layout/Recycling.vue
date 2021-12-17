@@ -12,10 +12,10 @@
           <span class="text-1 fw-8">Вы сдаёте,<br>мы перерабатываем</span>
         </div>
         <div class="mv-5 box-md-3 box-lg-2">
-          <div class="text-3 lh-5 fw-6">Устаревшее или неисправное устройство можно сдать на переработк</div>
+          <div class="text-3 lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать на переработк</div>
         </div>
         <div class="btn-content">
-          <nuxt-link to="/winter-lep/" class="button">Пункты переработки</nuxt-link>
+          <a href="#store" class="button">Пункты переработки</a>
         </div>
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
@@ -26,7 +26,7 @@
           <div class="text-3 lh-5 fw-6">Eskirgan yoki nuqsonli moslamangizni qayta ishlanishiga topshir</div>
         </div>
         <div class="btn-content">
-          <nuxt-link to="/winter-lep/" class="button">Qayta ishlash punktlari</nuxt-link>
+          <a href="#store" class="button">Qayta ishlash punktlari</a>
         </div>
       </div>
     </div>
@@ -46,8 +46,9 @@
     }
   }
   .text-1{
-    font-size: 4em;
-    line-height: 130%;
+    font-size: 5.29em;
+    text-transform: uppercase;
+    line-height: 100%;
   }
   .text-2{
     font-size: 3em;
@@ -61,7 +62,7 @@
     z-index: 1;
     color: white;
     .entry-content {
-      padding: 10vh 60px;
+      padding: 260px 60px;
       //padding: 220px 60px;
       position: absolute;
       top: 0;
@@ -122,23 +123,31 @@
         width: 100%;
         height: 0;
         @media (min-width: 992px){
-          padding-top: calc(100vh - 120px);
+          //padding-top: calc(100vh - 120px);
+          padding-top: 1080px;
         }
       }
       img{
-        right: 0;
+        left: 555px;
         //z-index: 1;
-        top: 50%;
+        top: calc(50% - 60px);
         transform: translateY(-50%);
         //width: 100%;
         position: absolute;
         //object-fit: cover;
         object-position: right;
-        //height: calc(100vh - 70px);
-        height: 80%;
-        @media (max-width: 991px){
-          right: 50%;
-          transform: translate(50%, -50%);
+        height: auto;
+        //height: 80%;
+      }
+      @media (max-width: 991px){
+        display: block;
+        position: relative;
+        overflow: hidden;
+        img{
+          left: 50%;
+          top: 50%;
+          height: 110%;
+          transform: translate(-50%, -50%);
         }
       }
     }
@@ -151,14 +160,6 @@
       .btn-content{
         margin-top: 0;
         order: 3;
-      }
-      .picture-bg {
-        display: block;
-        position: relative;
-        img{
-          //position: relative;
-          //height: auto;
-        }
       }
     }
     @media (max-width: 600px) {

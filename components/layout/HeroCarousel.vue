@@ -48,6 +48,10 @@ export default {
       vis: false,
       items: [
       {
+        name: 'recycling',
+        component: 'LayoutRecycling'
+      }, 
+      {
         name: 'winter',
         component: 'LayoutWinter',
       }, 
@@ -55,10 +59,6 @@ export default {
         name: 'newbee',
         component: 'LayoutNewbee',
       },
-      {
-        name: 'recycling',
-        component: 'LayoutRecycling'
-      }, 
       {
         name: 'default',
         component: 'LayoutHero'

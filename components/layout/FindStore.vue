@@ -72,7 +72,7 @@ export default {
           result.push(values)
         })
       }
-
+      console.log(result, 'result');
       return result
     },
   },
@@ -92,7 +92,7 @@ export default {
     this.addApiMaps()
     const sheetId = '1G2ptp-6ieW89yRk-0zPXE6MmBXfLzTnv8SAiozXcyyA'
     const data = await this.parseSheet(sheetId)
-
+    console.log(data)
     this.locations = data
   }
 }
