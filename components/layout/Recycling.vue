@@ -12,7 +12,7 @@
           <span class="text-1 fw-8">Вы сдаёте,<br>мы перерабатываем</span>
         </div>
         <div class="mv-5 text-3">
-          <div class="lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать на переработк</div>
+          <div class="lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать <br>на переработку</div>
         </div>
         <div class="btn-content">
           <a href="#store" class="button">Пункты переработки</a>
@@ -23,7 +23,7 @@
           <span class="text-1 fw-8">Siz topshirasiz,<br>biz qayta ishlaymiz</span>
         </div>
         <div class="mv-5 text-3">
-          <div class="lh-5 fw-6">Eskirgan yoki nuqsonli moslamangizni qayta ishlanishiga topshir</div>
+          <div class="lh-5 fw-6">Eskirgan yoki nuqsonli <br> moslamangizni <br> qayta ishlanishiga topshirishingiz <br> mumkin</div>
         </div>
         <div class="btn-content">
           <a href="#store" class="button">Qayta ishlash punktlari</a>
