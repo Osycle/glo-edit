@@ -71,7 +71,7 @@
       width: 100%;
       @media (max-width: 991px) {
         position: relative;
-        height: 383px;
+        //height: 383px;
       }
     }
     // &:before {

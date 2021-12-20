@@ -56,7 +56,7 @@
     },
     data() {
       return {
-        category: ['devices', 'recycling'],
+        category: ['recycling', 'devices'],
         search: '',
       }
     },
@@ -82,7 +82,7 @@
             controls: [],
             zoom: 12,
           })
-
+          window.myMap = map;
           const objectManager = new ymaps.ObjectManager({
             // clusterize: true,
           })
@@ -92,111 +92,123 @@
             type: 'FeatureCollection',
             features: []
           }
-            var markers = [
-              {
-                type: "Feature",
-                id: 50000,
-                geometry: {
-                    type: "Point",
-                    coordinates: [41.26998, 69.26226]
-                },
-                properties: {
-                  balloonContent: "<strong>Корзинка</strong>",
-                  data: {
-                    recycling: "true",
-                  }
-                },
-                options: {
-                  iconLayout: 'default#image',
-                  iconImageHref: require('~/assets/images/pin-re.png'),
-                  iconImageSize: [38, 48],
-                  iconImageOffset: [-38 / 2, -48],
+          var markers = [
+            {
+              type: "Feature",
+              id: 50000,
+              geometry: {
+                  type: "Point",
+                  coordinates: [41.26998, 69.26226]
+              },
+              properties: {
+                balloonContent: `<strong>Корзинка</strong><br>г. Ташкент, Яккасарайский район, ул. Кичик Халка Йули, 88.<br>автостоянка Корзинки Аэропорт.`,
+                data: {
+                  recycling: "true",
+                  sticks: "true",
+                  devices: "true",
                 }
               },
-              {
-                type: "Feature",
-                id: 50001,
-                geometry: {
-                    type: "Point",
-                    coordinates: [41.339912, 69.253627]
-                },
-                properties: {
-                  balloonContent: "<strong>Ривьера</strong>",
-                  data: {
-                    recycling: "true",
-                  }
-                },
-                options: {
-                  iconLayout: 'default#image',
-                  iconImageHref: require('~/assets/images/pin-re.png'),
-                  iconImageSize: [38, 48],
-                  iconImageOffset: [-38 / 2, -48],
+              options: {
+                zIndex: 700,
+                iconLayout: 'default#image',
+                iconImageHref: require('~/assets/images/pin-re.png'),
+                iconImageSize: [40, 50],
+                iconImageOffset: [-40 / 2, -50],
+              }
+            },
+            {
+              type: "Feature",
+              id: 50001,
+              geometry: {
+                  type: "Point",
+                  coordinates: [41.339912, 69.253627]
+              },
+              properties: {
+                balloonContent: `<strong>Ривьера</strong><br>г. Ташкент, Алмазарский район, улица Нурафшон, дом № 5<br>ТЦ Riviera`,
+                data: {
+                  recycling: "true",
+                  sticks: "true",
+                  devices: "true",
                 }
               },
-              {
-                type: "Feature",
-                id: 50002,
-                geometry: {
-                    type: "Point",
-                    coordinates: [41.2385552, 69.3291113]
-                },
-                properties: {
-                  balloonContent: "<strong>ТЦ Компас</strong>",
-                  data: {
-                    recycling: "true",
-                  }
-                },
-                options: {
-                  iconLayout: 'default#image',
-                  iconImageHref: require('~/assets/images/pin-re.png'),
-                  iconImageSize: [38, 48],
-                  iconImageOffset: [-38 / 2, -48],
+              options: {
+                zIndex: 700,
+                iconLayout: 'default#image',
+                iconImageHref: require('~/assets/images/pin-re.png'),
+                iconImageSize: [40, 50],
+                iconImageOffset: [-40 / 2, -50],
+              }
+            },
+            {
+              type: "Feature",
+              id: 50002,
+              geometry: {
+                  type: "Point",
+                  coordinates: [41.2385552, 69.3291113]
+              },
+              properties: {
+                balloonContent: `<strong>ТЦ Компас</strong><br>г. Ташкент, Бектемирский район, ТКАД, дом № 17.<br>ТЦ “COMPASS”`,
+                data: {
+                  recycling: "true",
+                  sticks: "true",
+                  devices: "true",
                 }
               },
-              {
-                type: "Feature",
-                id: 50003,
-                geometry: {
-                    type: "Point",
-                    coordinates: [41.3120002, 69.2908010]
-                },
-                properties: {
-                  balloonContent: "<strong>Ц1</strong>",
-                  data: {
-                    recycling: "true",
-                  }
-                },
-                options: {
-                  iconLayout: 'default#image',
-                  iconImageHref: require('~/assets/images/pin-re.png'),
-                  iconImageSize: [38, 48],
-                  iconImageOffset: [-38 / 2, -48],
+              options: {
+                zIndex: 700,
+                iconLayout: 'default#image',
+                iconImageHref: require('~/assets/images/pin-re.png'),
+                iconImageSize: [40, 50],
+                iconImageOffset: [-40 / 2, -50],
+              }
+            },
+            {
+              type: "Feature",
+              id: 50003,
+              geometry: {
+                  type: "Point",
+                  coordinates: [41.3120002, 69.2908010]
+              },
+              properties: {
+                balloonContent: `<strong>Ц-1</strong><br>г. Ташкент, Мирзо-Улугбекский район, ул. Узбекистон Овози, дом 21<br>Ц-1, напротив кафе Бибигон`,
+                data: {
+                  recycling: "true",
+                  sticks: "true",
+                  devices: "true",
                 }
               },
-              {
-                type: "Feature",
-                id: 50004,
-                geometry: {
-                    type: "Point",
-                    coordinates: [41.3118788, 69.2738592]
-                },
-                properties: {
-                  balloonContent: "<strong>Зарафшан</strong>",
-                  data: {
-                    recycling: "true",
-                  }
-                },
-                options: {
-                  iconLayout: 'default#image',
-                  iconImageHref: require('~/assets/images/pin-re.png'),
-                  iconImageSize: [38, 48],
-                  iconImageOffset: [-38 / 2, -48],
+              options: {
+                zIndex: 700,
+                iconLayout: 'default#image',
+                iconImageHref: require('~/assets/images/pin-re.png'),
+                iconImageSize: [40, 50],
+                iconImageOffset: [-40 / 2, -50],
+              }
+            },
+            {
+              type: "Feature",
+              id: 50004,
+              geometry: {
+                  type: "Point",
+                  coordinates: [41.3118788, 69.2738592]
+              },
+              properties: {
+                balloonContent: `<strong>Заравшан</strong><br> г. Ташкент, улица Матбуотчилар, 17.<br>торговый центр «Zarafshan»`,
+                data: {
+                  recycling: "true",
+                  sticks: "true",
+                  devices: "true",
                 }
               },
-            ];
-            markers.forEach(element => {
-              newFeature.features.push(element)
-            });
+              options: {
+                zIndex: 700,
+                iconLayout: 'default#image',
+                iconImageHref: require('~/assets/images/pin-re.png'),
+                iconImageSize: [40, 50],
+                iconImageOffset: [-40 / 2, -50],
+              }
+            },
+          ];
           const searchArray = []
           const searchControl = new ymaps.control.SearchControl({
             options: {
@@ -241,7 +253,9 @@
             searchArray.push(point[`adress_${locale}`])
             newFeature.features.push(obj)
           })
-
+          markers.forEach(element => {
+            newFeature.features.push(element)
+          });
 
           const findAdress = (arr, find) => {
             return arr.filter(function (value) {

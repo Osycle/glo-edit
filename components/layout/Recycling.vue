@@ -11,8 +11,8 @@
         <div>
           <span class="text-1 fw-8">Вы сдаёте,<br>мы перерабатываем</span>
         </div>
-        <div class="mv-5 box-md-3 box-lg-2">
-          <div class="text-3 lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать на переработк</div>
+        <div class="mv-5 text-3">
+          <div class="lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать на переработк</div>
         </div>
         <div class="btn-content">
           <a href="#store" class="button">Пункты переработки</a>
@@ -22,8 +22,8 @@
         <div>
           <span class="text-1 fw-8">Siz topshirasiz,<br>biz qayta ishlaymiz</span>
         </div>
-        <div class="mv-5 box-md-3 box-lg-2">
-          <div class="text-3 lh-5 fw-6">Eskirgan yoki nuqsonli moslamangizni qayta ishlanishiga topshir</div>
+        <div class="mv-5 text-3">
+          <div class="lh-5 fw-6">Eskirgan yoki nuqsonli moslamangizni qayta ishlanishiga topshir</div>
         </div>
         <div class="btn-content">
           <a href="#store" class="button">Qayta ishlash punktlari</a>
@@ -46,7 +46,7 @@
     }
   }
   .text-1{
-    font-size: 5.29em;
+    font-size: 4em;
     text-transform: uppercase;
     line-height: 100%;
   }
@@ -54,7 +54,7 @@
     font-size: 3em;
   }
   .text-3{
-    font-size: 1.98em;
+    font-size: 1.5em;
   }
   .swiper-inbody {
     position: relative;
@@ -68,9 +68,12 @@
       top: 0;
       left: 0;
       width: 100%;
+      @media (min-width: 992px){
+        padding-left: calc(50vw - 710px);
+      }
       @media (max-width: 991px) {
         position: relative;
-        height: 383px;
+        //height: 383px;
       }
     }
 
@@ -92,7 +95,7 @@
       text-align: center;
       background-color: black;
       //background-image: linear-gradient(to right, #8221df, #117f66);
-      font-size: 30px;
+      font-size: 20px;
       color: #ffffff;
       white-space: nowrap;
       padding: 10px 30px;
@@ -124,19 +127,20 @@
         height: 0;
         @media (min-width: 992px){
           //padding-top: calc(100vh - 120px);
-          padding-top: 1080px;
+          padding-top: 900px;
         }
       }
       img{
-        left: 555px;
+        left: 630px;
         //z-index: 1;
-        top: calc(50% - 60px);
+        top: calc(50% - 0px);
         transform: translateY(-50%);
         //width: 100%;
         position: absolute;
         //object-fit: cover;
         object-position: right;
-        height: auto;
+        height: 790px;
+        //height: auto;
         //height: 80%;
       }
       @media (max-width: 991px){
