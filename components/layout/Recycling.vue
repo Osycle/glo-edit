@@ -15,7 +15,7 @@
           <div class="lh-5 fw-6">Устаревшее или <br>неисправное устройство <br> можно сдать <br>на переработку</div>
         </div>
         <div class="btn-content">
-          <a href="#store" class="button">Пункты переработки</a>
+          <a href="#store" class="button">Пункты сбора</a>
         </div>
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
@@ -26,7 +26,7 @@
           <div class="lh-5 fw-6">Eskirgan yoki nuqsonli <br> moslamangizni <br> qayta ishlanishiga topshirishingiz <br> mumkin</div>
         </div>
         <div class="btn-content">
-          <a href="#store" class="button">Qayta ishlash punktlari</a>
+          <a href="#store" class="button">Yig'ish punktlari</a>
         </div>
       </div>
     </div>
@@ -69,6 +69,9 @@
       left: 0;
       width: 100%;
       @media (min-width: 992px){
+        padding-left: calc(50vw - 680px);
+      }
+      @media (min-width: 1441px){
         padding-left: calc(50vw - 710px);
       }
       @media (max-width: 991px) {
