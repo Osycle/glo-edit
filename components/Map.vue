@@ -185,29 +185,29 @@
                 iconImageOffset: [-40 / 2, -50],
               }
             },
-            {
-              type: "Feature",
-              id: 50004,
-              geometry: {
-                  type: "Point",
-                  coordinates: [41.3118788, 69.2738592]
-              },
-              properties: {
-                balloonContent: `<strong>Заравшан</strong><br> г. Ташкент, улица Матбуотчилар, 17.<br>торговый центр «Zarafshan»`,
-                data: {
-                  recycling: "true",
-                  sticks: "true",
-                  devices: "true",
-                }
-              },
-              options: {
-                zIndex: 700,
-                iconLayout: 'default#image',
-                iconImageHref: require('~/assets/images/pin-re.png'),
-                iconImageSize: [40, 50],
-                iconImageOffset: [-40 / 2, -50],
-              }
-            },
+            // {
+            //   type: "Feature",
+            //   id: 50004,
+            //   geometry: {
+            //       type: "Point",
+            //       coordinates: [41.3118788, 69.2738592]
+            //   },
+            //   properties: {
+            //     balloonContent: `<strong>Заравшан</strong><br> г. Ташкент, улица Матбуотчилар, 17.<br>торговый центр «Zarafshan»`,
+            //     data: {
+            //       recycling: "true",
+            //       sticks: "true",
+            //       devices: "true",
+            //     }
+            //   },
+            //   options: {
+            //     zIndex: 700,
+            //     iconLayout: 'default#image',
+            //     iconImageHref: require('~/assets/images/pin-re.png'),
+            //     iconImageSize: [40, 50],
+            //     iconImageOffset: [-40 / 2, -50],
+            //   }
+            // },
           ];
           const searchArray = []
           const searchControl = new ymaps.control.SearchControl({

@@ -29,13 +29,13 @@
                     </a>
                   </a>
                 </li>
-                <li>
+                <!-- <li>
                   <a target="_blank" href="https://maps.google.com/?q=17 улица Матбуотчилар, Ташкент, Узбекистан">
                     <a target="_blank" href='https://maps.apple.com/maps?q=41.312218,69.2712237'>
                       {{ $t('find_store_offline_adress_3') }}
                     </a>
                   </a>
-                </li>
+                </li> -->
                 <li>
                   <a target="_blank" href="https://maps.google.com/?q=5 Nurafshon ko'chasi, Тошкент 100000, Узбекистан">
                     <a href="https://maps.apple.com/maps?q=41.3392649,69.2523868">
