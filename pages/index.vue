@@ -61,7 +61,6 @@ export default {
   },
   data() {
     return {
-      meta_description: "<sdadasdasd",
       visibleStore: false,
       visible: {}
     }

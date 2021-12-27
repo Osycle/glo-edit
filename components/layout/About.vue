@@ -1,6 +1,9 @@
 <template>
   <div :class="$style['about']" id="about">
     <div class="container-fluid">
+      <div class="row align-items-center text-center">
+        <h1>Система нагревания табака Glo Hyper Plus</h1>
+      </div>
       <div class="row align-items-center">
         <div class="col-sm" v-scroll-reveal="{ origin: 'left' }">
           <img height="915" width="849" data-src="~/assets/images/product-globe.png" :class="$style['image']" alt="" v-lazy-load>
