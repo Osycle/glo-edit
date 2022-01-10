@@ -51,10 +51,10 @@ export default {
         name: 'winter',
         component: 'LayoutWinter',
       }, 
-      {
-        name: 'newbee',
-        component: 'LayoutNewbee',
-      },
+      // {
+      //   name: 'newbee',
+      //   component: 'LayoutNewbee',
+      // },
       {
         name: 'recycling',
         component: 'LayoutRecycling'
