@@ -117,7 +117,7 @@ export default {
     position: fixed;
     z-index: 2;
     right: 20px;
-    bottom: 20px;
+    bottom: 70px;
     text-align: center;
     animation: toblock 10s linear 0s 1;
     a{
