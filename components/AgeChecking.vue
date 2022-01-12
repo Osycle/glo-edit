@@ -96,7 +96,7 @@ export default {
     verify(value) {
       if(value) {
         this.$cookies.set('verify', true, {
-          maxAge: 60 * 30
+          maxAge: 60 * 60
         })
 
         document.body.style.overflow = ''
