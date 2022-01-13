@@ -126,7 +126,7 @@ export default {
       display: block;
     }
     @media (max-width: 991px){
-     width: calc(100% - 40px);
+      width: calc(100% - 40px);
     }
     .text-content{
       padding: 20px 25px;

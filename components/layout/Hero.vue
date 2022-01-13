@@ -9,10 +9,10 @@
             <div :class="$style['brand-title']">glo hyper+ </div>
             <div :class="$style['brand-note']">
               <span v-html="$t('hero_title')"></span>
-              <HelpInfo :class="$style['brand-help']"
+              <!-- <HelpInfo :class="$style['brand-help']"
                 :size="18"
                 :options="{ content: $t('hero_note') }"
-              />
+              /> -->
             </div>
           </div>
         </div>
@@ -37,11 +37,30 @@
         <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-red.jpg" alt="">
         <Logo :class="$style['product-logo']"/>
       </div>
+      <div class="limbo-text">
+        <div v-if="$i18n.locale != 'uz'">*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</div>
+        <div v-else>*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda.</div>
+      </div>
     </div>
   </div>
 </template>
 
+<style lang="scss" scoped>
+.limbo-text{
+  max-width: 700px;
+  margin: 30px 30px 30px 64px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  font-size: 11px;
+  @media (max-width: 991px){
+    display: none;
+  }
+}
+</style>
+
 <style lang="scss" module>
+
 .hero {
   display: flex;
   flex-direction: column;

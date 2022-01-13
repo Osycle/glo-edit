@@ -73,6 +73,12 @@
             </div>
           </div>
         </div>
+        <div class="col-6 col-md-offset-6">
+          <div class="text-x2 mt-5 mobile:mv-2">
+            <span v-if="$i18n.locale != 'uz'">*Табак нагревается, а не горит. По сравнению с сигаретой при курении. Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание.</span>
+            <span v-else>*Tamaki qizdiriladi, yonmaydi. Chekiladigan sigareta bilan taqqoslaganda. Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida o'rganib qolish mumkin bo'lgan qaramlikni keltirib chiqaradigan nikotin mavjud.</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>

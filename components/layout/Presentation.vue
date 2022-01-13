@@ -13,7 +13,7 @@
         <div :class="[$style['form'], isSended && $style['is-disable']]">
           <div class="row">
             <div class="col-md-6 mb-5">
-              <div :class="$style['form-label']">{{ $t('form_label_phone') }} *</div>
+              <div :class="$style['form-label']">{{ $t('form_label_phone') }}</div>
               <Input
                       v-model="form.phone"
                       v-validate="'required|min:17'"
@@ -36,7 +36,7 @@
               </div>
             </div>
             <div class="col-md-6 mb-5">
-              <div :class="$style['form-label']">{{ $t('form_label_city') }} *</div>
+              <div :class="$style['form-label']">{{ $t('form_label_city') }}</div>
               <Select
                       v-model="form.city"
                       :options="cities[$i18n.locale]"

@@ -13,7 +13,7 @@
             </svg>
           </div>
           <div class="text-content"  v-if="$i18n.locale == 'uz'">Ushbu innovatsion mahsulot sizning sog‘lingizga zarar yetkazishi va o‘ziga qaram qilishi mumkin. Faqatgina 20 yoshga yetgan shaxslarga mo‘ljallangan.</div>
-          <div class="text-content" v-else>Этот инновационный продукт может вредить вашему здоровью и вызывает привыкание. Предназначен только для лиц достигших 20 лет</div>
+          <div class="text-content" v-else>Этот инновационный продукт может вредить вашему здоровью и вызывает привыкание. Предназначен только для лиц достигших 20 лет.</div>
         </div>
       </div>
     </div>
@@ -60,8 +60,8 @@
         <div class="col mb-11">
           <div :class="$style['copy']">
             {{ $t('note_campare') }}
-            <br>
-            {{ $t('note_health') }}
+            <!-- <br>
+            {{ $t('note_health') }} -->
             <br>
             {{ $t('note_stick') }}
             <br>

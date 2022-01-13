@@ -42,8 +42,8 @@ hero_desc:
   uz: 'Tamaki <br> isitish <br> texnologiyasi'
 
 hero_note:
-  ru: 'Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения  рекомендует уменьшить в сигаретном дыме.'
-  uz: "Ushbu tizim xavf-xatarsiz mahsulot hisoblanmaydi va uning tarkibida o’ziga qaram qiladigan nikotin mavjud. Oddiy sigaretadagi tutun (taxminan 9 mg qatron) va qizdirilgan glo tamaki qurilmasidagi bug’ taqqoslanganda, o'rtacha 9 turdagi zararli moddalar aniqlangan, Jahon sog'liqni saqlash tashkiloti ularning iste’mol qilinishini, sigareta tutunini kamaytirishni tavsiya qiladi."
+  ru: '*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
+  uz: "*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida  qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda."
 
 # Carousel
 hero_carousel_title:
@@ -73,12 +73,12 @@ about_content_2:
 
 # Fact details
 fact_details_title:
-  ru: '<span>Нагревание,</span> а не горение*.'
-  uz: '<span>Bu isitish,</span> yonish emas*.'
+  ru: '<span>НАГРЕВАНИЕ,</span> А НЕ ГОРЕНИЕ, МЕНЬШЕ ТОКСИЧНЫХ ВЕЩЕСТВ, ЧЕМ В СИГАРЕТАХ*'
+  uz: '<span>YONMAYDI,</span> AKSINCHA QIZDIRILADI, SIGARETAGA QARAGANDA ZAHARLI MODDALAR KAMROQ*'
 
 fact_details_content:
-  ru: 'Внутри устройства находится цилиндрическая камера, в которую вставляется табачный стик***. При включении табачный стик нагревается при температуре до 270°C ±5. В результате образуется насыщенный никотином пар. При нагревании полностью отсутствует процесс горения, а значит токсичных веществ и смол выделяется меньше**.'
-  uz: "Qurilmaning ichida silindrsimon kamera joylashgan bo'lib, unga tamaki stiki *** joylashtiriladi. Yoqilganda, tamaki tayoqchasi 200 dan 260 darajagacha bo'lgan temperaturada qiziydi. Natijada nikotinga to’yintirilgan bug’ hosil bo'ladi.  Qizdirishda yonish jarayoni umuman mavjud bo’lmaydi, demak,  zaharli moddalar va qatronlar kamroq ajraladi **."
+  ru: 'Внутри устройства находится цилиндрическая камера, в которую вставляется табачный стик¹. При включении табачный стик нагревается при температуре до 270°C ±5. В результате образуется насыщенный никотином пар. При нагревании полностью отсутствует процесс горения, а значит токсичных веществ выделяется меньше*.'
+  uz: "Qurilmaning ichida silindrsimon kamera joylashgan bo'lib, unga tamaki stiki¹ joylashtiriladi. Yoqilganda, tamaki stiki 270°C ±5 darajagacha bo'lgan temperaturada qiziydi. Natijada nikotinga to’yintirilgan bug’ hosil bo'ladi. Qizdirishda yonish jarayoni umuman mavjud bo’lmaydi, demak, zaharli moddalar kamroq ajraladi*."
 
 fact_details_normal:
   ru: 'Температура нагревания <br> табака в устройствах glo'
@@ -94,8 +94,8 @@ fact_benefits_title:
   uz: 'glo BILAN 90-95% DAN KAMROQ ZAHARLOVCHI MODDALAR'
 
 fact_benefits_note:
-  ru: 'Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения  рекомендует уменьшить в сигаретном дыме. *'
-  uz: "Ushbu tizim xavf-xatarsiz mahsulot hisoblanmaydi va uning tarkibida o’ziga qaram qiladigan nikotin mavjud. Oddiy sigaretadagi tutun (taxminan 9 mg qatron) va qizdirilgan glo tamaki qurilmasidagi bug’ taqqoslanganda, o'rtacha 9 turdagi zararli moddalar aniqlangan, Jahon sog'liqni saqlash tashkiloti ularning iste’mol qilinishini, sigareta tutunini kamaytirishni tavsiya qiladi. *"
+  ru: '*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
+  uz: "*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida  qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda."
 
 # Benefits
 benefits_sigarete:
@@ -111,12 +111,12 @@ benefits_title:
   uz: 'glo HYPER + NING AFZALLIKLARI'
 
 benefits_item_1:
-  ru: 'Без пепла, меньше запаха **'
-  uz: 'Kulsiz, hidi kamroq **'
+  ru: 'Без пепла и запаха дыма*'
+  uz: 'Kulsiz va tutun hidisiz*'
 
 benefits_item_2:
-  ru: 'До 20 сессий на одном заряде ****'
-  uz: 'Bitta quvvatda 20 ta sessiyagacha ****'
+  ru: 'До 20 сессий на одном заряде²'
+  uz: 'Bitta quvvatda 20 ta sessiyagacha²'
 
 benefits_item_3:
   ru: 'Можно использовать когда угодно'
@@ -333,20 +333,20 @@ footer_contacts:
   uz: 'ALOQA'
 
 note_campare:
-  ru: '* Данная система не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от нагретого табака устройстве glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
-  uz: "* Ushbu tizim xavf-xatarsiz mahsulot emas va o'ziga qaram bo'lgan nikotinni o'z ichiga oladi. Standart sigaret tutunini (taxminan 9 mg qatronlar) va bug'ni isitilgan tamaki qurilmalaridan taqqoslashglo jahon sog'liqni saqlash tashkiloti sigaret tutunini kamaytirishni tavsiya qiladigan zararli moddalarning o'rtacha 9 turiga to'g'ri keladi."
+  ru: '*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
+  uz: "*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме."
 
 note_health:
   ru: '** По сравнению с курением обычных сигарет. Это не обязательно означает, что данная продукция менее вредная, чем другая продукция из табака.'
   uz: "** Oddiy sigaret chekish bilan solishtirganda. Bu, albatta, bu mahsulot boshqa tamaki mahsulotlariga qaraganda kamroq zararli ekanligini anglatmaydi."
 
 note_stick:
-  ru: '*** Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака.'
-  uz: "*** Stick tamaki iste'mol qilish uchun tizimlarda foydalanish uchun mo'ljallangan sigaret chekadigan tamaki mahsulotidir."
+  ru: '¹ Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака.'
+  uz: "¹ Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака."
 
 note_battery:
-  ru: '**** При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления.'
-  uz: "**** Qurilmani to'liq zaryad qilish sharti bilan. Sessiyalar soni iste'molga qarab farq qilishi mumkin."
+  ru: '² При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления.'
+  uz: "² При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления."
 
 # Age checker
 age_checker_note:
@@ -445,7 +445,7 @@ form_button_close:
 
 form_error_required:
   ru: 'Поле обязательно для заполнения'
-  uz: "To'ldirilishi shart bo'lgan maydo"
+  uz: "To'ldirilishi shart bo'lgan maydon"
 
 form_error_min:
   ru: 'Поле должно быть не менее {min} символов'

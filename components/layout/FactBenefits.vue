@@ -6,10 +6,14 @@
           <div class="col-md-5" v-scroll-reveal="{ origin: 'left', distance: '250px'}">
             <div :class="$style['title']">
               <span v-html="$t('hero_title')"></span>
-              <HelpInfo :class="$style['title-help']"
+              <!-- <HelpInfo :class="$style['title-help']"
                 :size="18"
                 :options="{ content: $t('hero_note') }"
-              />
+              /> -->
+            </div>
+            <div class="text-x2 mv-3 mobile:mv-2" style="color:white;">
+              <span v-if="$i18n.locale != 'uz'">*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</span>
+              <span v-else>*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida  qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda.</span>
             </div>
           </div>
           <div class="col-md-7" v-scroll-reveal="{ delay: 400 }">
