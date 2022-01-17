@@ -334,7 +334,7 @@ footer_contacts:
 
 note_campare:
   ru: '*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.'
-  uz: "*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме."
+  uz: "*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda."
 
 note_health:
   ru: '** По сравнению с курением обычных сигарет. Это не обязательно означает, что данная продукция менее вредная, чем другая продукция из табака.'
@@ -342,11 +342,11 @@ note_health:
 
 note_stick:
   ru: '¹ Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака.'
-  uz: "¹ Стик – некурительное табачное изделие, предназначенное для использования в системах для потребления табака."
+  uz: "¹ Stik tamaki iste'mol qilish uchun tizimlarda foydalanish uchun mo'ljallangan sigaret chekadigan tamaki mahsulotidir."
 
 note_battery:
   ru: '² При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления.'
-  uz: "² При условии полной зарядки устройства. Количество сессий может варьироваться в зависимости от потребления."
+  uz: "² Moslamani to'liq zaryad qilish sharti bilan. Sessiyalar soni iste'molga qarab farq qilishi mumkin."
 
 # Age checker
 age_checker_note:
