@@ -20,6 +20,10 @@
         <div :class="$style['info']">
           <ContactLink type="phone" />
           <ContactLink type="bot" />
+          <div class="limbo-text">
+            <div v-if="$i18n.locale != 'uz'">*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</div>
+            <div v-else>*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda.</div>
+          </div>
         </div>
 
       </div>
@@ -37,10 +41,7 @@
         <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-red.jpg" alt="">
         <Logo :class="$style['product-logo']"/>
       </div>
-      <div class="limbo-text">
-        <div v-if="$i18n.locale != 'uz'">*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</div>
-        <div v-else>*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda.</div>
-      </div>
+
     </div>
   </div>
 </template>
@@ -53,6 +54,9 @@
   bottom: 100px;
   left: 0;
   font-size: 11px;
+  @media (max-width: 1900px) and (min-width: 1401px){
+    bottom: calc(-10vw + 280px);
+  }
   @media (max-width: 991px){
     display: none;
   }
@@ -70,7 +74,7 @@
   width: 100%;
 
   @media (max-width: $bp-xxl) {
-    height: 800px;
+    height: 900px;
   }
 
   @media (max-width: $bp-md) {
