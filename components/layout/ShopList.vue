@@ -54,7 +54,7 @@
             </div>
           </div>
           <div class="col-md-7" >
-            <img :class="$style['image']" src="~/assets/images/shop-offline.jpg" alt="img">
+            <img :class="$style['image']" src="~/assets/images/shop-offline.jpg" alt="img" v-lazy-load>
           </div>
         </div>
       </div>

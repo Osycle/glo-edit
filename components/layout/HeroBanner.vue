@@ -2,9 +2,9 @@
     <a href="/#presentation">
         <div :class="$style['hero__banner']">
             <picture>
-                <source media="(max-width: 420px)" :srcset="require(`../../assets/images/hero/MBanner.jpg`)">
-                <source media="(max-width: 992px)" :srcset="require(`../../assets/images/hero/Banner.jpg`)">
-                <img :class="$style['hero__img']" data-not-lazy :src="require(`../../assets/images/hero/Banner.jpg`)" :alt="false">
+                <source media="(max-width: 420px)" :srcset="require(`../../assets/images/hero/MBanner.webp`)">
+                <source media="(max-width: 992px)" :srcset="require(`../../assets/images/hero/Banner.webp`)">
+                <img :class="$style['hero__img']" data-not-lazy :src="require(`../../assets/images/hero/Banner.webp`)" :alt="false">
             </picture>
         </div>
     </a>

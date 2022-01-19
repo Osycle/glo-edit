@@ -119,7 +119,14 @@ export default {
     font-size: 15px;
     line-height: 100%;
     @media (max-width: 991px){
-      font-size: 12px;
+      font-size: 10px;
+    }
+  }
+}
+[lang="uz"]{
+  .lim-content{
+    @media (max-width: 991px){
+      font-size: 9px;
     }
   }
 }

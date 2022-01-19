@@ -135,32 +135,36 @@ products_white:
   ru: 'oq'
   uz: 'qora'
 
+products_item_polar:
+  ru: 'glo HYPER+ Новогоднее предложение'
+  uz: 'glo HYPER+ Yangi Yil taklifi'
+
 products_item_white:
-  ru: 'glo HYPER+ белый'
-  uz: 'glo HYPER+ oq'
+  ru: 'glo HYPER+ Белый'
+  uz: 'glo HYPER+ Oq'
 
 products_item_black:
-  ru: 'glo HYPER+ чёрный'
-  uz: 'glo HYPER+ qora'
+  ru: 'glo HYPER+ Чёрный'
+  uz: 'glo HYPER+ Qora'
 
 products_item_gold:
-  ru: 'glo HYPER+ золотой'
-  uz: 'glo HYPER+ oltin'
+  ru: 'glo HYPER+ Золотой'
+  uz: 'glo HYPER+ Oltin'
 
 products_item_blue:
-  ru: 'glo HYPER+ голубой'
-  uz: 'glo HYPER+ moviy'
+  ru: 'glo HYPER+ Синий'
+  uz: 'glo HYPER+ Moviy'
 
 products_item_red-wood:
-  ru: 'glo HYPER+ красное дерево'
-  uz: 'glo HYPER+ mahogany'
+  ru: 'glo HYPER+ Чёрно-красный'
+  uz: 'glo HYPER+ Qora-qizil'
 
 products_item_timati:
-  ru: 'glo HYPER+ Topaz'
+  ru: 'glo HYPER+ Топаз'
   uz: 'glo HYPER+ Topaz'
 
 products_item_buzova:
-  ru: 'glo HYPER+ Bliss'
+  ru: 'glo HYPER+ Блисс'
   uz: 'glo HYPER+ Bliss'
 
 products_note:

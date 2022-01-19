@@ -2,8 +2,8 @@
   <div class="swiper-inbody-wrapper">
     <div class="swiper-inbody">
       <picture class="picture-bg">
-        <source media="(max-width: 992px)" srcset="~/assets/images/hero/newbee-mobil-new.jpg" />
-        <img src="~/assets/images/hero/newbee-new.jpg"/>
+        <source media="(max-width: 992px)" srcset="~/assets/images/hero/newbee-mobil-new.webp" />
+        <img v-lazy-load src="~/assets/images/hero/newbee-new.webp"/>
       </picture>
       <div class="flex-wrapper" v-if="$i18n.locale == 'ru'">
         <div>

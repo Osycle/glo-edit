@@ -33,41 +33,42 @@ export default {
     return {
       products: [
         {
-        name: "glo HYPER+ New Year Edition",
-        image: require('assets/images/products/product-polar.png'),
+        //name: "glo HYPER+ New Year Edition",
+        name: this.$t('products_item_polar'),
+        image: require('assets/images/products/product-polar.webp'),
         limit: true,
         price: 200000
       },
       {
         name: this.$t('products_item_buzova'),
-        image: require('assets/images/products/product-buzova.png'),
+        image: require('assets/images/products/product-buzova.webp'),
         limit: true,
         price: 200000
       }, 
       {
         name: this.$t('products_item_timati'),
-        image: require('assets/images/products/product-timati.png'),
+        image: require('assets/images/products/product-timati.webp'),
         limit: true,
         price: 200000
       }, {
         name: this.$t('products_item_gold'),
-        image: require('assets/images/products/product-gold.png'),
+        image: require('assets/images/products/product-gold.webp'),
         price: 200000
       }, {
         name: this.$t('products_item_red-wood'),
-        image: require('assets/images/products/product-red-wood.png'),
+        image: require('assets/images/products/product-red-wood.webp'),
         price: 200000
       }, {
         name: this.$t('products_item_blue'),
-        image: require('assets/images/products/product-blue.png'),
+        image: require('assets/images/products/product-blue.webp'),
         price: 200000
       }, {
         name: this.$t('products_item_white'),
-        image: require('assets/images/products/product-white.png'),
+        image: require('assets/images/products/product-white.webp'),
         price: 200000
       }, {
         name: this.$t('products_item_black'),
-        image: require('assets/images/products/product-black.png'),
+        image: require('assets/images/products/product-black.webp'),
         price: 200000
       }]
     }

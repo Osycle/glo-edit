@@ -2,7 +2,7 @@
   <div :class="$style['hero']">
     <div :class="$style['columns']">
       <div :class="$style['column']" data-image="human">
-        <img data-not-lazy :class="$style['column-image']" src="~/assets/images/hero/hero-background-human.jpg" alt="">
+        <img v-lazy-load :class="$style['column-image']" src="~/assets/images/hero/hero-background-human.webp" alt="">
 
         <div>
           <div :class="$style['brand']">
@@ -28,20 +28,25 @@
 
       </div>
       <div :class="$style['column']" data-image="blue">
-        <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-blue.jpg" alt="">
+        <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-blue.webp" alt="">
         <div>
           <div :class="$style['note']" v-html="$t('hero_desc')"></div>
         </div>
         <div :class="$style['products']">
-          <img data-not-lazy src="~/assets/images/hero/product-white.png" data-product="white" alt="">
-          <img data-not-lazy src="~/assets/images/hero/product-black.png" data-product="black" alt="">
+          <!-- data-not-lazy -->
+          <img v-lazy-load src="~/assets/images/hero/product-white.webp" data-product="white" alt="">
+          <img v-lazy-load src="~/assets/images/hero/product-black.webp" data-product="black" alt="">
         </div>
       </div>
       <div :class="$style['column']" data-image="red">
-        <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-red.jpg" alt="">
+        <img :class="$style['column-image']" src="~/assets/images/hero/hero-background-red.webp" alt="">
         <Logo :class="$style['product-logo']"/>
       </div>
 
+    </div>
+    <div class="limbo-text hidden-md hidden-lg">
+      <div v-if="$i18n.locale != 'uz'">*Данный продукт не является продуктом без риска и содержит никотин, который вызывает привыкание. Сравнение дыма в стандартной сигарете (примерно 9 мг смол) и пара от glo в среднем по 9 типам вредных веществ, употребление которых Всемирная организация здравоохранения рекомендует уменьшить в сигаретном дыме.</div>
+      <div v-else>*Ushbu mahsulot xavfsiz mahsulot hisoblanmaydi va uning tarkibida qaramlikni keltirib chiqaradigan nikotin mavjud. Standart sigaretadagi tutun (taxminan 9 mg smola) va glo dan chiqayotgan bug' ichidagi, Jahon sog'liqni saqlash tashkiloti sigareta tutuni tarkibida kamaytirishni tavsiya qiladigan zaharli moddalarning o'rtacha 9 turi bo'yicha taqqoslanganda.</div>
     </div>
   </div>
 </template>
@@ -58,9 +63,14 @@
     bottom: calc(-10vw + 280px);
   }
   @media (max-width: 991px){
-    display: none;
+    margin: 15px 20px;
+    margin-bottom: 80px;
+    position: relative;
+    //top: 100%;
+    bottom: 0;
   }
 }
+
 </style>
 
 <style lang="scss" module>
@@ -78,11 +88,11 @@
   }
 
   @media (max-width: $bp-md) {
-    height: 668px;
+    height: calc(668px + 180px);
   }
 
   @media (max-width: $bp-sm) {
-    height: 722px;
+    height: calc(722px + 200px);
   }
 }
 
@@ -96,6 +106,7 @@
 
   @media (max-width: $bp-lg) {
     flex-wrap: wrap;
+    position: relative;
   }
 }
 

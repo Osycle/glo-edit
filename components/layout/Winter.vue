@@ -2,10 +2,10 @@
   <div class="swiper-inbody-wrapper">
     <div class="swiper-inbody bnr-winter">
       <picture class="picture-bg">
-        <source v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/winter-uz-mobile.jpg" />
-        <source v-else media="(max-width: 992px)" srcset="~/assets/images/hero/winter-mobile.jpg" />
-        <img v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/winter-uz.jpg"/>
-        <img v-else src="~/assets/images/hero/winter.jpg"/>
+        <source v-lazy-load v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/winter-uz-mobile.webp" />
+        <source v-lazy-load v-else media="(max-width: 992px)" srcset="~/assets/images/hero/winter-mobile.webp" />
+        <img v-lazy-load v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/winter-uz.webp"/>
+        <img v-lazy-load v-else src="~/assets/images/hero/winter.webp"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
         <div>
@@ -131,6 +131,9 @@
         object-fit: cover;
         object-position: right;
         height: calc(100vh - 70px);
+        @media (min-width: 992px){
+          min-height: 620px;
+        }
       }
     }
     @media (max-width: 991px) {

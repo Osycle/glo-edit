@@ -20,7 +20,7 @@
             <div :class="$style['products']">
 <!--              <img src="~/assets/images/products.png" alt="">-->
               <div :class="$style['products__video']">
-                <video controls autoplay loop muted
+                <video controls autoplay loop muted v-lazy-load
                        v-observe-visibility="visibilityChanged"
                        ref="video">
                   <source src="~/assets/video/glo_hyper+_video2.mp4" type="video/mp4">
