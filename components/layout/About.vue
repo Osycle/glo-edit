@@ -2,7 +2,8 @@
   <div :class="$style['about']" id="about">
     <div class="container-fluid">
       <div class="row align-items-center text-center">
-        <h1>Система нагревания табака glo hyper+</h1>
+        <h1 v-if="$i18n.locale != 'uz'">Система нагревания табака glo hyper+</h1>
+        <h1 v-else>Glo hyper+ tamaki isitish texnologiyasi</h1>
       </div>
       <div class="row align-items-center">
         <div class="col-sm" v-scroll-reveal="{ origin: 'left' }">
