@@ -34,6 +34,7 @@
                 <div class="col-md-6">
                   <div :class="$style['links']">
                     <NuxtLink
+                      rel="nofollow"
                       :to="link.path"
                       v-for="link in links"
                       :key="link.name">{{ link.name }}
