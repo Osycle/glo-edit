@@ -137,7 +137,7 @@ export default {
     right: 20px;
     bottom: 70px;
     text-align: center;
-    animation: toblock 10s linear 0s 1;
+    animation: toblock 8s linear 0s 1;
     a{
       text-decoration: none;
       color: white; 
@@ -195,7 +195,6 @@ export default {
 
     @media (max-width: 991px){
       //right: 20px;
-      display: none;
       bottom: 60px;
     }
   }
