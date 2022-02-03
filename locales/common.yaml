@@ -205,8 +205,8 @@ find_store_offline_adress_2:
   uz: 'Toshkent sh., Bektemir tumani, TKAD, 17 uy. Mo’ljal: “COMPASS” savdo markazi.'
 
 find_store_offline_adress_3:
-  ru: 'Адрес: г. Ташкент, улица Матбуотчилар, 17. Ориентир: торговый центр «Zarafshan».'
-  uz: 'Toshkent sh., Yunusobod tumani, Matbuotchilar ko’ch., 17 uy. Mo’ljal: "Zarafshon" savdo markazi.'
+  ru: 'Адрес: г. Самарканд, ул. Нарпайская, 76А. Ориентир: ТЦ “Family Park”'
+  uz: 'Samarqand sh., Narpay ko’ch., 76A uy. Mo’jal: Family Park savdo markazi.'
 
 find_store_offline_adress_4:
   ru: 'Адрес: г. Ташкент, Алмазарский район, улица Нурафшон, дом № 5 (ТЦ Riviera).'
