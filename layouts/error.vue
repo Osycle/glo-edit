@@ -12,6 +12,11 @@
             </div>
           </div>
         </div>
+        <style>
+          header nav{
+            display: none !important;
+          }
+        </style>
       </div>
     </div>
   </div>

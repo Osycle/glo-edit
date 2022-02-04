@@ -23,7 +23,7 @@ export default {
       const article = await $content("/cookie/"+uzL, params.slug).fetch()
       const title = article.title;
       return { article, title }
-    } catch(err) {
+    } catch(error) {
       error({
         statusCode: 404,
         message: 'Page could not be found'

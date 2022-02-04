@@ -83,7 +83,7 @@ export default {
         },
         {
           id: 'contest',
-          path: '/winter-lep',
+          path: '/winter-lesp',
         },
         {
           id: 'store',
