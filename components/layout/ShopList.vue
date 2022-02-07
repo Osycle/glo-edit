@@ -30,13 +30,6 @@
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://maps.google.com/?q=г. Самарканд, ул. Нарпайская, 76А. Ориентир: ТЦ 'Family Park'">
-                    <a target="_blank" href='https://maps.apple.com/maps?q=39.663462,66.907895'>
-                      {{ $t('find_store_offline_adress_3') }}
-                    </a>
-                  </a>
-                </li>
-                <li>
                   <a target="_blank" href="https://maps.google.com/?q=5 Nurafshon ko'chasi, Тошкент 100000, Узбекистан">
                     <a href="https://maps.apple.com/maps?q=41.3392649,69.2523868">
                       {{ $t('find_store_offline_adress_4') }}
@@ -47,6 +40,13 @@
                   <a target="_blank" href="https://maps.google.com/?q=87A Kichik Xalqa Yo'li, Тошкент, Узбекистан">
                     <a href="https://maps.apple.com/maps?q=41.2699245,69.2605698">
                       {{ $t('find_store_offline_adress_5') }}
+                    </a>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://maps.google.com/?q=г. Самарканд, ул. Нарпайская, 76А. Ориентир: ТЦ 'Family Park'">
+                    <a target="_blank" href='https://maps.apple.com/maps?q=39.663462,66.907895'>
+                      {{ $t('find_store_offline_adress_3') }}
                     </a>
                   </a>
                 </li>
