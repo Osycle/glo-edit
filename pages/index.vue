@@ -115,11 +115,11 @@ export default {
   @keyframes wayRight{
     0%{
       transform: translateY(0px);
-      right: calc(50% - 103px);
+      right: calc(50% - 150px);
     }
     25%{
       transform: translateY(100px);
-      right: calc(50% - 103px);
+      right: calc(50% - 150px);
     }
     75%{
       transform: translateY(100px);
@@ -172,8 +172,8 @@ export default {
       .towrite-close{
         display: none;
       }
-      right: 20px;
       animation: wayRight 2s ease 0s 1;
+      right: 20px;
     }
     a{
       text-decoration: none;
@@ -233,6 +233,13 @@ export default {
     @media (max-width: 991px){
       //right: 20px;
       bottom: 60px;
+    }
+    @media (min-width: 992px){
+      right: calc(50% - 150px);
+      .text-content{
+        padding: 30px 55px;
+        font-size: 17px;
+      }
     }
   }
 </style>
