@@ -16,11 +16,13 @@ export default {
   props: ['error'],
   async asyncData({ $content, params, route, a }) {
     try {
-      console.log($content, params, route.path);
+      console.log(params, route.path);
       var uzL = "";
       if(route.path.match(/\w+/gim).length == 2)
         var uzL = route.path.match(/\w+/gim)[0]
-      const article = await $content("/cookie/"+uzL, params.slug).fetch()
+        console.log(uzL)
+      //const article = await $content(uzL+"/", params.slug).fetch()
+      const article = await $content(route.path, params.slug).fetch()
       const title = article.title;
       return { article, title }
     } catch(error) {

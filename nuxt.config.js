@@ -60,9 +60,27 @@ export default async () => {
 
     sitemap: {
       hostname: process.env.HOST_NAME,
-      routes() {
-        return routes()
-      },
+      
+      routes: [
+        '/faq/',
+        '/uz/',
+        '/winter-lep/',
+        '/uz/faq/',
+        '/uz/winter-lep/',
+        '/',
+      ]
+      // sitemaps: [
+      //   {
+      //     path: '/faq/',
+      //     // ...
+      //   }, {
+      //     path: '/uz/',
+      //     // ...
+      //   }
+      // ]
+      // routes() {
+      //   return routes()
+      // },
     },
 
     // Modules: https://go.nuxtjs.dev/config-modules

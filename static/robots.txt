@@ -5,15 +5,15 @@ User-Agent: Yandex
 Sitemap: https://glo.uz/sitemap.xml
 Disallow: https://glo.uz/cookie/
 Disallow: https://glo.uz/uz/cookie/
-Disallow: https://glo.uz/cookie/cookie
-Disallow: https://glo.uz/cookie/uz/cookie
+Disallow: https://glo.uz/cookie/cookie/
+Disallow: https://glo.uz/cookie/uz/cookie/
 
 User-agent: Googlebot
 Sitemap: https://glo.uz/sitemap.xml
 Disallow: https://glo.uz/cookie/
 Disallow: https://glo.uz/uz/cookie/
-Disallow: https://glo.uz/cookie/cookie
-Disallow: https://glo.uz/cookie/uz/cookie
+Disallow: https://glo.uz/cookie/cookie/
+Disallow: https://glo.uz/cookie/uz/cookie/
 Allow: /*.jpg
 Allow: /*.gif
 Allow: /*.png
