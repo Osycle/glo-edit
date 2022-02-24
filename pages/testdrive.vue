@@ -2,6 +2,10 @@
   <div>
     <Presentation />
 <style>
+  body{
+    height: auto !important;
+    overflow: auto !important;
+  }
   #verify-block{
     pointer-events: none;
     opacity: 0;
