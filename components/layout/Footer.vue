@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row footer-center">
         <div :class="$style['contacts']">
           <div class="row justify-content-between">
             <div class="col-md-6 mb-5">
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row footer-end">
         <div class="col mb-11">
           <div :class="$style['copy']">
             {{ $t('note_campare') }}

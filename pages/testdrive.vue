@@ -6,6 +6,11 @@
     height: auto !important;
     overflow: auto !important;
   }
+  header nav,
+  .footer-center, .footer-end{
+    display: none !important;
+  }
+  
   #verify-block{
     pointer-events: none;
     opacity: 0;
@@ -23,14 +28,10 @@ import Presentation from "~/components/layout/Presentation";
 
 export default {
   created(){
-    // this.$cookies.set('verify', true, {
-    //   maxAge: 60 * 60
-    // })
+
   },
   mounted(){
-    // this.$cookies.set('verify', false, {
-    //   maxAge: -1
-    // })
+
     
     function setCookie(name, value, options = {}) {
 
@@ -67,11 +68,7 @@ export default {
         'max-age': -1
       })
     }
-    // // Пример использования:
-    // setTimeout(() => {
-    //   setCookie('verify', 'false', {secure: true, 'max-age': 9999999, path: "/testdrive"});
-      
-    // }, 100);
+
     var vm = this;
     window.asd = vm;
   },
