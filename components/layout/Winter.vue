@@ -8,7 +8,7 @@
         <img v-lazy-load v-else src="~/assets/images/hero/winter.webp"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
-        <div class="desktop:mt-22">
+        <div class="desktop:mt-22 desktop:pt-22">
           <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
         </div>
         <!-- <div class="mv-5">
@@ -20,7 +20,7 @@
         </div> -->
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
-        <div class="desktop:mt-22">
+        <div class="desktop:mt-22 desktop:pt-22">
           <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
         </div>
         <!-- <div class="mv-5">
