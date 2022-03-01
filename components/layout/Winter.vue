@@ -8,28 +8,28 @@
         <img v-lazy-load v-else src="~/assets/images/hero/winter.webp"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
-        <div>
+        <div class="desktop:mt-22">
           <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
         </div>
-        <div class="mv-5">
+        <!-- <div class="mv-5">
           <div class="text-2 text-uppercase fw-8 color-3 lh-0">новогодний розыгрыш!</div>
           <div class="text-3 text-uppercase fw-7">участвуй и выигрывай крутые призы!</div>
         </div>
         <div class="btn-content">
           <nuxt-link to="/winter-lep/" class="button">Подробнее</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="entry-content" v-if="$i18n.locale == 'uz'">
-        <div>
+        <div class="desktop:mt-22">
           <span class="text-1 fw-8">glo HYPER+  <br> NEW YEAR EDITION</span>
         </div>
-        <div class="mv-5">
+        <!-- <div class="mv-5">
           <div class="text-2 text-uppercase fw-8 color-3 lh-0">Yangi  yil  sovrinli  o'yin!</div>
           <div class="text-3 text-uppercase fw-7" style="font-size: 1.5em;">IshtiroK eting va ajoyib sovg'alarni yutib oling!</div>
         </div>
         <div class="btn-content">
           <nuxt-link to="/uz/winter-lep/" class="button">Batafsil ma'lumot</nuxt-link>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -395,8 +395,8 @@ footer_copy:
 
 # Presentation
 present_form_title:
-  ru: 'Заполните форму и получите персональную презентацию'
-  uz: "Shaklni to'ldiring va shaxsiy taqdimotni oling"
+  ru: 'Заполните форму и получите персональную презентацию устройства и бесплатный тест-драйв:'
+  uz: "Shaklni to'ldiring va qurilmaning shaxsiy taqdimotini va bepul sinov drayverini oling:"
 
 present_form_agreement:
   ru: 'Я подтверждаю, что мне исполнилось 20 или более лет и я являюсь потребителем табака или иной никотиносодержащей продукции, и даю согласие на обработку моих <a href="{agreement}"" target="_blank">персональных данных</a>'

@@ -81,10 +81,10 @@ export default {
         {
           id: 'catalog',
         },
-        {
-          id: 'contest',
-          path: '/winter-lep',
-        },
+        // {
+        //   id: 'contest',
+        //   path: '/winter-lep',
+        // },
         {
           id: 'store',
         },
