@@ -1,6 +1,11 @@
 <template>
   <div>
     <Presentation />
+    <div class="link-tomain">
+      <div class="container">
+        <nuxt-link to="/"><u>Узнать больше о glo hyper+</u></nuxt-link>
+      </div>
+    </div>
     <style>
       body{
         height: auto !important;
@@ -19,7 +24,22 @@
   </div>
 </template>
 
-
+<style lang="scss">
+  .link-tomain{
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    z-index: 1;
+    position: relative;
+    a{
+      color: black;
+      font-size: 25px;
+    }
+    @media (max-width: 991px){
+      margin-top: -20px;
+    }
+  }
+</style>
 
 <script>
 

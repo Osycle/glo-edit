@@ -3,9 +3,9 @@
     <div class="swiper-inbody bnr-winter">
       <picture class="picture-bg">
         <source v-lazy-load v-if="$i18n.locale == 'uz'" media="(max-width: 992px)" srcset="~/assets/images/hero/recycling-1.webp" />
-        <source v-lazy-load v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling-1.webp" />
+        <source v-lazy-load v-else media="(max-width: 992px)" srcset="~/assets/images/hero/recycling-2.webp" />
         <img v-lazy-load v-if="$i18n.locale == 'uz'"  src="~/assets/images/hero/recycling-1.webp"/>
-        <img v-lazy-load v-else src="~/assets/images/hero/recycling-1.webp"/>
+        <img v-lazy-load v-else src="~/assets/images/hero/recycling-2.webp"/>
       </picture>
       <div class="entry-content" v-if="$i18n.locale == 'ru'">
         <div>
