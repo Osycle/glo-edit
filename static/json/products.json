@@ -1,0 +1,99 @@
+[
+  {
+    "uz": {
+      "products": [
+        {
+          "name": "glo HYPER+ Yangi Yil taklifi",
+          "image": "/_nuxt/assets/images/products/product-polar.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Bliss",
+          "image": "/_nuxt/assets/images/products/product-buzova.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Topaz",
+          "image": "/_nuxt/assets/images/products/product-timati.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Oltin",
+          "image": "/_nuxt/assets/images/products/product-gold.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Qora-qizil",
+          "image": "/_nuxt/assets/images/products/product-red-wood.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Moviy",
+          "image": "/_nuxt/assets/images/products/product-blue.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Oq",
+          "image": "/_nuxt/assets/images/products/product-white.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Qora",
+          "image": "/_nuxt/assets/images/products/product-black.webp",
+          "price": 200000
+        }
+      ]
+    },
+    "ru": {
+      "products": [
+        {
+          "name": "glo HYPER+ Новогоднее предложение",
+          "image": "/_nuxt/assets/images/products/product-polar.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Блисс",
+          "image": "/_nuxt/assets/images/products/product-buzova.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Топаз",
+          "image": "/_nuxt/assets/images/products/product-timati.webp",
+          "limit": true,
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Золотой",
+          "image": "/_nuxt/assets/images/products/product-gold.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Чёрно-красный",
+          "image": "/_nuxt/assets/images/products/product-red-wood.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Синий",
+          "image": "/_nuxt/assets/images/products/product-blue.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Белый",
+          "image": "/_nuxt/assets/images/products/product-white.webp",
+          "price": 200000
+        },
+        {
+          "name": "glo HYPER+ Чёрный",
+          "image": "/_nuxt/assets/images/products/product-black.webp",
+          "price": 200000
+        }
+      ]
+    }
+  }
+
+]

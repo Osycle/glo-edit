@@ -57,6 +57,16 @@ export const actions = {
     const result = await this.$axios.$post('/presentation', payload)
 
     return result
+  },
+  async fetchProducts(context, params){
+    try {
+      
+      const data =  this.$axios.$get("http://localhost:8899/json/products.json");
+      console.log("localcl", process)
+      return data;
+    } catch (e) {
+      throw e;
+    }
   }
 }
 
