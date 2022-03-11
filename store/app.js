@@ -60,9 +60,13 @@ export const actions = {
   },
   async fetchProducts(context, params){
     try {
-      
-      const data =  this.$axios.$get("http://localhost:8899/json/products.json");
-      console.log("localcl", process)
+      //console.log(this, context);
+      const data =  this.$axios.$get("http://localhost:8899/json/products.json", {ssd:2}, {
+        headers: {
+          'content-type': 'text/json'
+        }
+      });
+      //console.log("localcl", process.env)
       return data;
     } catch (e) {
       throw e;

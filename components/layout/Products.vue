@@ -4,19 +4,21 @@
       <h2 :class="$style['title']" data-title-line>{{ $t('products_title') }}</h2>
       <div :class="$style['list']">
         <div class="row">
-          <div class="col-md-6 col-lg-4" v-for="(item, index) in products[$i18n.locale]" :key="index">
+          <div class="col-md-6 col-lg-4 product-item" v-for="(item, index) in products[$i18n.locale]" :key="index">
             <div :class="$style['item']" v-scroll-reveal="{ delay: index % 3 * 100 }">
-              <div :class="$style['item-image']" v-lazy-load>
-                <img width="248" height="673" :data-src="item.image" :alt="item.name">
-              </div>
+              <nuxt-link to="/products/1/">
+                <div :class="$style['item-image']" v-lazy-load>
+                  <img width="248" height="673" :data-src="item.image" :alt="item.name">
+                </div>
+              </nuxt-link>
               <h5 :class="$style['item-title']">
                 <div :class="$style['item-limit']" v-if="item.limit">{{ $t('products_limit') }}</div>
                 {{ item.name }}
               </h5>
-              <div class="pr-5">
+              <div class="pr-5 desc-content">
                 <span class="fw-6 text-x5">Формат Деми</span>
-                <div class="text-x3"><nuxt-link to="/warranty">Узнай больше</nuxt-link> о гарантии</div>
-                <div>150 000 сум при покупке у <nuxt-link to="/#presentation">персонального менеджера </nuxt-link>*</div>
+                <div class="text-x3"><nuxt-link to="/warranty/">Узнай больше</nuxt-link> о гарантии</div>
+                <div>150 000 сум при покупке у <nuxt-link to="/testdrive/">персонального менеджера </nuxt-link>*</div>
                 <div>200 000 сум цена в розницу *</div>
               </div>
               <!-- <div :class="$style['item-price']">
@@ -173,6 +175,14 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.product-item{
+  a{
+    color: inherit;
+  }
+}
+</style>
 
 <style lang="scss" module>
 .products {

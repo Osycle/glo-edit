@@ -34,7 +34,10 @@ export default async () => {
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
-    css: ['~/assets/styles/common.scss'],
+    css: [
+      {src: '~/assets/styles/common.scss'},
+      //{ src: "swiper/dist/css/swiper.css" }
+    ],
 
     styleResources: {
       scss: '~/assets/styles/variables.scss',
@@ -60,13 +63,16 @@ export default async () => {
 
     sitemap: {
       hostname: process.env.HOST_NAME,
-      
+      exclude: [
+        '/testdrive',
+        '/testdrive2',
+        '/uz/testdrive',
+        '/uz/testdrive2'
+      ],
       routes: [
         '/faq/',
         '/uz/',
-        '/winter-lep/',
         '/uz/faq/',
-        '/uz/winter-lep/',
         '/',
       ]
       // sitemaps: [
