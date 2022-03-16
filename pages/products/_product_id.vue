@@ -34,8 +34,8 @@
               <h1>{{current_product.name}}</h1>
             </div>
             <div class="desc-content mt-5">
-                <span class="fw-6 text-x5">Формат Деми</span>
-                <div class="text-x3"><nuxt-link to="/warranty/">Узнай больше</nuxt-link> о гарантии</div>
+                <div class="fw-6 text-x5 mb-1">Формат Деми</div>
+                <div><nuxt-link to="/warranty/">Узнайте больше</nuxt-link> о гарантии</div>
                 <div>{{current_product.price_manager | spaceBetweenNum}} сум при покупке у <nuxt-link to="/testdrive/">персонального менеджера </nuxt-link>*</div>
                 <div>{{current_product.price | spaceBetweenNum}} сум цена в розницу *</div>
                 <br>
@@ -47,7 +47,7 @@
               <h1>{{current_product.name}}</h1>
             </div>
             <div class="desc-content mt-5">
-                <span class="fw-6 text-x5">Demi formati</span>
+                <div class="fw-6 text-x5 mb-1">Demi formati</div>
                 <div class="text-x3">Kafolat haqida <nuxt-link to="/warranty/">ko‘proq bilib oling</nuxt-link></div>
                 <div><nuxt-link to="/testdrive/">Shaxsiy menejerdan</nuxt-link>xarid qilish narxi {{current_product.price_manager | spaceBetweenNum}} so‘m *</div>
                 <div>Chakana narxi {{current_product.price | spaceBetweenNum}} so‘m *</div>
@@ -643,6 +643,11 @@ export default {
 </script>
 
 <style lang="scss">
+  .product-item{
+    a{
+      font-size: 16px;
+    }
+  }
   .product-content{
     overflow: hidden;
     position: relative;

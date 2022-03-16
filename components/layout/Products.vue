@@ -17,7 +17,7 @@
               </h5>
               <div class="pr-5 desc-content" v-if="$i18n.locale != 'uz'">
                 <span class="fw-6 text-x5">Формат Деми</span>
-                <div class="text-x3"><nuxt-link to="/warranty/">Узнай больше</nuxt-link> о гарантии</div>
+                <div class="text-x3"><nuxt-link to="/warranty/">Узнайте больше</nuxt-link> о гарантии</div>
                 <div>{{item.price_manager | spaceBetweenNum}} сум при покупке у <nuxt-link to="/testdrive/">персонального менеджера </nuxt-link>*</div>
                 <div>{{item.price | spaceBetweenNum}} сум цена в розницу *</div>
               </div>
