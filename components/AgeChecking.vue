@@ -3,6 +3,7 @@
     <div :class="$style['wrapper']" v-if="!verify" id="verify-block">
       <!-- !verify &  -->
       <div :class="$style['modal']">
+
         <Logo :class="[$style['logo']]"/>
         <template v-if="!blocked">
           <div :class="$style['note']" v-html="$t('age_checker_note')">
@@ -61,6 +62,13 @@
           </div>
         </template>
       </div>
+    </div>
+    <div v-else>
+      <style>
+        header, footer, .main-page{
+          opacity: 1;
+        }
+      </style>
     </div>
   </div>
 </template>
@@ -122,7 +130,8 @@ export default {
     },
     checkForm() {
       const date = this.input.split('/')
-
+      ym(83933344,'reachGoal','ageGate');
+      console.log("reachGoal", ym)
       if(this.isDate20(date[0], date[1], date[2])) {
         this.$store.dispatch('app/setAgeGate', this.input).then(e => {
           this.verify = true

@@ -3,17 +3,25 @@ Sitemap: https://glo.uz/sitemap.xml
 
 User-Agent: Yandex
 Sitemap: https://glo.uz/sitemap.xml
-Disallow: https://glo.uz/cookie/
-Disallow: https://glo.uz/uz/cookie/
-Disallow: https://glo.uz/cookie/cookie/
-Disallow: https://glo.uz/cookie/uz/cookie/
+Disallow: /cookie/
+Disallow: /uz/cookie/
+Disallow: /cookie/cookie/
+Disallow: /cookie/uz/cookie/
+Disallow: /testdrive/
+Disallow: /testdrive2/
+Disallow: /uz/testdrive/
+Disallow: /uz/testdrive2/
 
 User-agent: Googlebot
 Sitemap: https://glo.uz/sitemap.xml
-Disallow: https://glo.uz/cookie/
-Disallow: https://glo.uz/uz/cookie/
-Disallow: https://glo.uz/cookie/cookie/
-Disallow: https://glo.uz/cookie/uz/cookie/
+Disallow: /cookie/
+Disallow: /uz/cookie/
+Disallow: /cookie/cookie/
+Disallow: /cookie/uz/cookie/
+Disallow: /testdrive/
+Disallow: /testdrive2/
+Disallow: /uz/testdrive/
+Disallow: /uz/testdrive2/
 Allow: /*.jpg
 Allow: /*.gif
 Allow: /*.png

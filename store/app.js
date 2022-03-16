@@ -60,7 +60,7 @@ export const actions = {
   },
   async fetchProducts(context, params){
     try {
-      //console.log(this, context);
+      console.log(this, context);
       const data =  this.$axios.$get("http://localhost:8899/json/products.json", {ssd:2}, {
         headers: {
           'content-type': 'text/json'
@@ -75,3 +75,13 @@ export const actions = {
 }
 
 export const getters = {}
+
+import Vue from 'vue';
+
+Vue.filter('spaceBetweenNum', (price)=>{ 
+	price += "";
+	var pattern = /(-?\d+)(\d{3})/;
+	while (pattern.test(price))
+		price = price.replace(pattern, "$1 $2");
+	return price; 
+})

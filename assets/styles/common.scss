@@ -7,6 +7,20 @@
 @import './../fonts/style.css';
 
 
+$color-gray: #9c9c9c;
+
+.color-gray{
+	color: $color-gray;
+}
+
+.container-x{
+	@extend .container;
+	@media (min-width: 992px){
+		width: 1280px;
+	}
+}
+
+
 html,
 body {
   height: 100%;
@@ -49,6 +63,7 @@ body {
 
 
 
+
 $color-1: #E35205;
 $color-2: #A2F1F3;
 $color-3: #794aa6;
@@ -88,7 +103,18 @@ $color-3: #794aa6;
   }
 }
 
-/* text-x */
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- text-x */
 
 .text-x1, .text-x1-u, .text-x1-b, .text-x1-bu {
   font-size: 10px;
