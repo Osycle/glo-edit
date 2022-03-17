@@ -48,11 +48,10 @@ export default {
           {
             "id": 1,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Polar-SNS-1.webp",
+              "/img/product/carousel/Polar-SNS-2.webp",
+              "/img/product/carousel/Polar-SNS-3.webp",
+              "/img/product/carousel/Polar-SNS-4.webp"
             ],
             "name": "glo HYPER+ Yangi Yil taklifi",
             "image": "/img/products/product-polar.webp",
@@ -63,11 +62,10 @@ export default {
           {
             "id": 2,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Summer-Buzova-1.webp",
+              "/img/product/carousel/Summer-Buzova-2.webp",
+              "/img/product/carousel/Summer-Buzova-3.webp",
+              "/img/product/carousel/Summer-Buzova-4.webp"
             ],
             "name": "glo HYPER+ Bliss",
             "image": "/img/products/product-buzova.webp",
@@ -78,11 +76,10 @@ export default {
           {
             "id": 3,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Summer-Timati-1.webp",
+              "/img/product/carousel/Summer-Timati-2.webp",
+              "/img/product/carousel/Summer-Timati-3.webp",
+              "/img/product/carousel/Summer-Timati-4.webp"
             ],
             "name": "glo HYPER+ Topaz",
             "image": "/img/products/product-timati.webp",
@@ -93,11 +90,11 @@ export default {
           {
             "id": 4,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/frosty_gold-1.webp",
+              "/img/product/carousel/frosty_gold-2.webp",
+              "/img/product/carousel/frosty_gold-3.webp",
+              "/img/product/carousel/frosty_gold-4.webp",
+              "/img/product/carousel/frosty_gold-5.webp"
             ],
             "name": "glo HYPER+ Oltin",
             "image": "/img/products/product-gold.webp",
@@ -107,11 +104,11 @@ export default {
           {
             "id": 5,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Mahogany-Red-1.webp",
+              "/img/product/carousel/Mahogany-Red-2.webp",
+              "/img/product/carousel/Mahogany-Red-3.webp",
+              "/img/product/carousel/Mahogany-Red-4.webp",
+              "/img/product/carousel/Mahogany-Red-5.webp"
             ],
             "name": "glo HYPER+ Qora-qizil",
             "image": "/img/products/product-red-wood.webp",
@@ -121,11 +118,11 @@ export default {
           {
             "id": 6,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/energetic_blue-1.webp",
+              "/img/product/carousel/energetic_blue-2.webp",
+              "/img/product/carousel/energetic_blue-3.webp",
+              "/img/product/carousel/energetic_blue-4.webp",
+              "/img/product/carousel/energetic_blue-5.webp"
             ],
             "name": "glo HYPER+ Moviy",
             "image": "/img/products/product-blue.webp",
@@ -135,11 +132,11 @@ export default {
           {
             "id": 7,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/pearl_white-1.webp",
+              "/img/product/carousel/pearl_white-2.webp",
+              "/img/product/carousel/pearl_white-3.webp",
+              "/img/product/carousel/pearl_white-4.webp",
+              "/img/product/carousel/pearl_white-5.webp"
             ],
             "name": "glo HYPER+ Oq",
             "image": "/img/products/product-white.webp",
@@ -149,11 +146,11 @@ export default {
           {
             "id": 8,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/ebony_black-1.webp",
+              "/img/product/carousel/ebony_black-2.webp",
+              "/img/product/carousel/ebony_black-3.webp",
+              "/img/product/carousel/ebony_black-4.webp",
+              "/img/product/carousel/ebony_black-5.webp"
             ],
             "name": "glo HYPER+ Qora",
             "image": "/img/products/product-black.webp",
@@ -165,11 +162,10 @@ export default {
           {
             "id": 1,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Polar-SNS-1.webp",
+              "/img/product/carousel/Polar-SNS-2.webp",
+              "/img/product/carousel/Polar-SNS-3.webp",
+              "/img/product/carousel/Polar-SNS-4.webp"
             ],
             "name": "glo HYPER+ Новогоднее предложение",
             "image": "/img/products/product-polar.webp",
@@ -180,11 +176,10 @@ export default {
           {
             "id": 2,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Summer-Buzova-1.webp",
+              "/img/product/carousel/Summer-Buzova-2.webp",
+              "/img/product/carousel/Summer-Buzova-3.webp",
+              "/img/product/carousel/Summer-Buzova-4.webp"
             ],
             "name": "glo HYPER+ Блисс",
             "image": "/img/products/product-buzova.webp",
@@ -195,11 +190,10 @@ export default {
           {
             "id": 3,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Summer-Timati-1.webp",
+              "/img/product/carousel/Summer-Timati-2.webp",
+              "/img/product/carousel/Summer-Timati-3.webp",
+              "/img/product/carousel/Summer-Timati-4.webp"
             ],
             "name": "glo HYPER+ Топаз",
             "image": "/img/products/product-timati.webp",
@@ -210,11 +204,11 @@ export default {
           {
             "id": 4,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/frosty_gold-1.webp",
+              "/img/product/carousel/frosty_gold-2.webp",
+              "/img/product/carousel/frosty_gold-3.webp",
+              "/img/product/carousel/frosty_gold-4.webp",
+              "/img/product/carousel/frosty_gold-5.webp"
             ],
             "name": "glo HYPER+ Золотой",
             "image": "/img/products/product-gold.webp",
@@ -224,11 +218,11 @@ export default {
           {
             "id": 5,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/Mahogany-Red-1.webp",
+              "/img/product/carousel/Mahogany-Red-2.webp",
+              "/img/product/carousel/Mahogany-Red-3.webp",
+              "/img/product/carousel/Mahogany-Red-4.webp",
+              "/img/product/carousel/Mahogany-Red-5.webp"
             ],
             "name": "glo HYPER+ Чёрно-красный",
             "image": "/img/products/product-red-wood.webp",
@@ -238,11 +232,11 @@ export default {
           {
             "id": 6,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/energetic_blue-1.webp",
+              "/img/product/carousel/energetic_blue-2.webp",
+              "/img/product/carousel/energetic_blue-3.webp",
+              "/img/product/carousel/energetic_blue-4.webp",
+              "/img/product/carousel/energetic_blue-5.webp"
             ],
             "name": "glo HYPER+ Синий",
             "image": "/img/products/product-blue.webp",
@@ -251,11 +245,11 @@ export default {
           {
             "id": 7,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/pearl_white-1.webp",
+              "/img/product/carousel/pearl_white-2.webp",
+              "/img/product/carousel/pearl_white-3.webp",
+              "/img/product/carousel/pearl_white-4.webp",
+              "/img/product/carousel/pearl_white-5.webp"
             ],
             "name": "glo HYPER+ Белый",
             "image": "/img/products/product-white.webp",
@@ -265,11 +259,11 @@ export default {
           {
             "id": 8,
             "images": [
-              "/img/product/polar-carousel-img-1.webp",
-              "/img/product/polar-carousel-img-2.webp",
-              "/img/product/polar-carousel-img-3.webp",
-              "/img/product/polar-carousel-img-4.webp",
-              "/img/product/polar-carousel-img-5.webp"
+              "/img/product/carousel/ebony_black-1.webp",
+              "/img/product/carousel/ebony_black-2.webp",
+              "/img/product/carousel/ebony_black-3.webp",
+              "/img/product/carousel/ebony_black-4.webp",
+              "/img/product/carousel/ebony_black-5.webp"
             ],
             "name": "glo HYPER+ Чёрный",
             "image": "/img/products/product-black.webp",
@@ -278,7 +272,6 @@ export default {
           }
         ]
       },
-
     }
   },
   created(){
