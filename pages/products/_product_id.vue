@@ -745,6 +745,9 @@ export default {
       height: 15%;
       box-sizing: border-box;
       padding: 10px 0;
+      .swiper-wrapper{
+        justify-content: center;
+      }
     }
     .mySwiper .swiper-slide {
       width: 25%;
