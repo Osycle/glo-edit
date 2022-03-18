@@ -17,7 +17,7 @@
             <div class="swiper mySwiper2">
               <div class="swiper-wrapper">
                 <div class="swiper-slide" v-for="(img, key) in current_product.images" :key="key">
-                  <img :src="img"  zoom-i :data-zoom-image="img" />
+                  <img :src="img"  zoom-i :data-zoom-image="img" width="1000px"/>
                 </div>
               </div>
             </div>
@@ -151,10 +151,10 @@
                 <div>
                   <div>Содержимое коробки:</div>
                   <br>
-                  <div>1x устройство glo™</div>
-                  <div>1x щеточка для чистки glo™</div>
-                  <div>1x USB-С кабель для зарядки glo™</div>
-                  <div>1x руководство пользователя glo™</div>
+                  <div>1x устройство glo</div>
+                  <div>1x щеточка для чистки glo</div>
+                  <div>1x USB-С кабель для зарядки glo</div>
+                  <div>1x руководство пользователя glo</div>
                 </div>
               </div>
             </div>
@@ -164,8 +164,8 @@
                   <div class="mb-2">
                     Для качественной работы устройства необходимо чистить его после каждых 20 сеансов использования, 
                     а при регулярном использовании функции Boost после каждых 10 сеансов. 
-                    Используй щеточку, чтобы прочищать камеру нагревания. 
-                    Также удаляй лишнюю влагу, чтобы устройство работало дольше.
+                    Используйте щеточку, чтобы прочищать камеру нагревания. 
+                    Также удаляйте лишнюю влагу, чтобы устройство работало дольше.
                   </div>
                   <br>
                   <div class="cleaning-items flex text-center mobile:jc-center mobile:fw-wrap">
@@ -175,7 +175,7 @@
                           <img src="/img/other/cleaning-1.webp" alt="">
                         </div>
                         <div class="desc-content mt-3">
-                          Возьми палочку для чистки glo™ из упаковки
+                          Возьмите палочку для чистки glo из упаковки
                         </div>
                       </div>
                     </div>
@@ -185,7 +185,7 @@
                           <img src="/img/other/cleaning-2.webp" alt="">
                         </div>
                         <div class="desc-content mt-3">
-                          Открой верхний затвор
+                          Откройте верхний затвор
                         </div>
                       </div>
                     </div>
@@ -195,7 +195,7 @@
                           <img src="/img/other/cleaning-3.webp" alt="">
                         </div>
                         <div class="desc-content mt-3">
-                          Открой нижнюю дверцу
+                          Откройте нижнюю дверцу
                         </div>
                       </div>
                     </div>
@@ -205,7 +205,7 @@
                           <img src="/img/other/cleaning-4.webp" alt="">
                         </div>
                         <div class="desc-content mt-3">
-                          Тщательно прочисть внутреннюю камеру.
+                          Тщательно прочистите внутреннюю камеру.
                         </div>
                       </div>
                     </div>
@@ -390,14 +390,26 @@ export default {
           swiper: swiper,
         },
       });
-      $(swiper2.$el).find(".swiper-slide-active [zoom-i]").elevateZoom()
+      var elevateZoomOptions = {
+        zoomWindowWidth: 400,
+        zoomWindowHeight: 400,
+        zoomWindowPosition: 1,
+        //responsive: true,
+        //imageCrossfade: true,
+        zoomLens: true,
+        scrollZoom : true,
+        containLensZoom: true,
+        //lensSize: 400,
+        //zoomWindowOffetx: 200,
+        //zoomWindowOffety: 200,
+        // zoomType: "lens",
+        // lensShape: "round",
+        // lensSize: 200
+        }
+      $(swiper2.$el).find(".swiper-slide-active [zoom-i]").elevateZoom(elevateZoomOptions)
       swiper2.on('slideChange', function (p) {
         $(".zoomContainer").remove();
-        $(p.$el).find(".swiper-slide").eq(p.activeIndex).find("[zoom-i]").elevateZoom({
-          // zoomType: "lens",
-          // lensShape: "round",
-          // lensSize: 200
-        });
+        $(p.$el).find(".swiper-slide").eq(p.activeIndex).find("[zoom-i]").elevateZoom(elevateZoomOptions);
         console.log($(p.$el));
       });
       
@@ -717,8 +729,6 @@ export default {
       align-items: center;
       img {
         display: block;
-        width: 100%;
-        height: 100%;
         object-fit: contain;
         display: block;
         width: 100%;
@@ -1026,7 +1036,7 @@ export default {
   }
   */
   .zoomContainer{
-   // z-index: 1;
+    z-index: 1;
    @media (max-width: 991px){
      display: none;
    }
