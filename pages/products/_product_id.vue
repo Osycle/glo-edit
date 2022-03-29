@@ -558,7 +558,22 @@ export default {
       stroke-dashoffset: 252px;
     }
   }
-
+  @keyframes pathscale{
+    0%, 100%{
+      stroke-width: 0px;
+    }
+    50%{
+      stroke-width: 1.8px;
+    }
+  }
+  @keyframes rotated{
+    0%, 100%{
+      transform: rotate(0);
+    }
+    50%{
+      transform: rotate(360deg);
+    }
+  }
   .format-items{
     font-size: 14px;
     .item{
@@ -581,7 +596,7 @@ export default {
         }
         overflow: visible;
       }
-      &:hover{
+      @mixin hovered{
         svg{
           path{
             stroke: #69c9fa;
@@ -596,40 +611,17 @@ export default {
           }
         }
       }
+      &:hover{
+        @include hovered()
+      }
       @media (min-width: 992px){
         max-width: 50%;
       }
-      @keyframes pathscale{
-        0%, 100%{
-          stroke-width: 0px;
-        }
-        50%{
-          stroke-width: 1.8px;
-        }
-      }
-      @keyframes rotated{
-        0%, 100%{
-          transform: rotate(0);
-        }
-        50%{
-          transform: rotate(360deg);
-        }
-        // 0%{transform: rotate(0) scale(1);}
-        // 10%{transform: rotate(36deg) scale(1.1);}
-        // 20%{transform: rotate(72deg) scale(1);}
-        // 30%{transform: rotate(108deg) scale(1.1);}
-        // 40%{transform: rotate(144deg) scale(1);}
-        // 50%{transform: rotate(216deg) scale(1.1);}
-        // 60%{transform: rotate(252deg) scale(1);}
-        // 70%{transform: rotate(288deg) scale(1.1);}
-        // 80%{transform: rotate(324deg) scale(1);}
-        // 90%{transform: rotate(360deg) scale(1.1);}
+      @media (max-width: 991px){
+        @include hovered();
       }
       &.item-boost{
-        &:hover{
-          svg{
-            
-          }
+        @mixin hovered{
           svg path{
             stroke-width: 0px;
             animation: 
@@ -637,12 +629,18 @@ export default {
             pathscale 3s linear 0s infinite;
           }
         }
+        &:hover{
+          @include hovered()
+        }
+        @media (max-width: 991px){
+          @include hovered();
+        }
       }
       &.item-demi{
         svg path{
           transform: scale(1);
         }
-        &:hover{
+        @mixin hovered{
           path{
             stroke: white;
             stroke-width: 2px;
@@ -665,14 +663,26 @@ export default {
             transition-delay: 0.30s;
           }
         }
+        &:hover{
+          @include hovered();
+        }
+        @media (max-width: 991px){
+          @include hovered();
+        }
       }
       &.item-light{
-        &:hover{
+        @mixin hovered{
           path{
             stroke-width: 2.7px;
             animation: dash 10s linear 0s infinite;
             stroke-dasharray: 1.3px;
           }
+        }
+        &:hover{
+          @include hovered();
+        }
+        @media (max-width: 991px){
+          @include hovered();
         }
       }
     }
