@@ -352,13 +352,12 @@
 export default {
   head() {
     return {
-      title: "Электронные сигареты Glo Hyper в Узбекистане купить систему нагревания табака Glo (Гло) в Ташкенте",
-
+      title: this.current_product.seo.title,
       meta: [
         {
           hid: 'description',
           name: "description",
-          content: "Официальный сайт продажи систем для нагрева табака Glo в Ташкенте и Узбекистане &#11088; от Бритиш Американ Тобакко. Устройств нагревания табака и стики для Гло (Glo) можно купить в Ташкенте. &#10133; Бесплатный тест драйв"
+          content: this.current_product.seo.description
         },
         // {
         //   name: "keywords",
@@ -424,244 +423,14 @@ export default {
   data(){
     return {
       current_product: null,
-      products: 
-      {
-        "uz": [
-          {
-            "id": 1,
-            "images": [
-              "/img/product/carousel/Polar-SNS-1.webp",
-              "/img/product/carousel/Polar-SNS-2.webp",
-              "/img/product/carousel/Polar-SNS-3.webp",
-              "/img/product/carousel/Polar-SNS-4.webp"
-            ],
-            "name": "glo HYPER+ Yangi Yil taklifi",
-            "image": "/img/products/product-polar.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 2,
-            "images": [
-              "/img/product/carousel/Summer-Buzova-1.webp",
-              "/img/product/carousel/Summer-Buzova-2.webp",
-              "/img/product/carousel/Summer-Buzova-3.webp",
-              "/img/product/carousel/Summer-Buzova-4.webp"
-            ],
-            "name": "glo HYPER+ Bliss",
-            "image": "/img/products/product-buzova.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 3,
-            "images": [
-              "/img/product/carousel/Summer-Timati-1.webp",
-              "/img/product/carousel/Summer-Timati-2.webp",
-              "/img/product/carousel/Summer-Timati-3.webp",
-              "/img/product/carousel/Summer-Timati-4.webp"
-            ],
-            "name": "glo HYPER+ Topaz",
-            "image": "/img/products/product-timati.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 4,
-            "images": [
-              "/img/product/carousel/frosty_gold-1.webp",
-              "/img/product/carousel/frosty_gold-2.webp",
-              "/img/product/carousel/frosty_gold-3.webp",
-              "/img/product/carousel/frosty_gold-4.webp",
-              "/img/product/carousel/frosty_gold-5.webp"
-            ],
-            "name": "glo HYPER+ Oltin",
-            "image": "/img/products/product-gold.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 5,
-            "images": [
-              "/img/product/carousel/Mahogany-Red-1.webp",
-              "/img/product/carousel/Mahogany-Red-2.webp",
-              "/img/product/carousel/Mahogany-Red-3.webp",
-              "/img/product/carousel/Mahogany-Red-4.webp",
-              "/img/product/carousel/Mahogany-Red-5.webp"
-            ],
-            "name": "glo HYPER+ Qora-qizil",
-            "image": "/img/products/product-red-wood.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 6,
-            "images": [
-              "/img/product/carousel/energetic_blue-1.webp",
-              "/img/product/carousel/energetic_blue-2.webp",
-              "/img/product/carousel/energetic_blue-3.webp",
-              "/img/product/carousel/energetic_blue-4.webp",
-              "/img/product/carousel/energetic_blue-5.webp"
-            ],
-            "name": "glo HYPER+ Moviy",
-            "image": "/img/products/product-blue.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 7,
-            "images": [
-              "/img/product/carousel/pearl_white-1.webp",
-              "/img/product/carousel/pearl_white-2.webp",
-              "/img/product/carousel/pearl_white-3.webp",
-              "/img/product/carousel/pearl_white-4.webp",
-              "/img/product/carousel/pearl_white-5.webp"
-            ],
-            "name": "glo HYPER+ Oq",
-            "image": "/img/products/product-white.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 8,
-            "images": [
-              "/img/product/carousel/ebony_black-1.webp",
-              "/img/product/carousel/ebony_black-2.webp",
-              "/img/product/carousel/ebony_black-3.webp",
-              "/img/product/carousel/ebony_black-4.webp",
-              "/img/product/carousel/ebony_black-5.webp"
-            ],
-            "name": "glo HYPER+ Qora",
-            "image": "/img/products/product-black.webp",
-            "price_manager": 150000,
-            "price": 200000
-          }
-        ],
-        "ru": [
-          {
-            "id": 1,
-            "images": [
-              "/img/product/carousel/Polar-SNS-1.webp",
-              "/img/product/carousel/Polar-SNS-2.webp",
-              "/img/product/carousel/Polar-SNS-3.webp",
-              "/img/product/carousel/Polar-SNS-4.webp"
-            ],
-            "name": "glo HYPER+ Новогоднее предложение",
-            "image": "/img/products/product-polar.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 2,
-            "images": [
-              "/img/product/carousel/Summer-Buzova-1.webp",
-              "/img/product/carousel/Summer-Buzova-2.webp",
-              "/img/product/carousel/Summer-Buzova-3.webp",
-              "/img/product/carousel/Summer-Buzova-4.webp"
-            ],
-            "name": "glo HYPER+ Блисс",
-            "image": "/img/products/product-buzova.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 3,
-            "images": [
-              "/img/product/carousel/Summer-Timati-1.webp",
-              "/img/product/carousel/Summer-Timati-2.webp",
-              "/img/product/carousel/Summer-Timati-3.webp",
-              "/img/product/carousel/Summer-Timati-4.webp"
-            ],
-            "name": "glo HYPER+ Топаз",
-            "image": "/img/products/product-timati.webp",
-            "limit": true,
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 4,
-            "images": [
-              "/img/product/carousel/frosty_gold-1.webp",
-              "/img/product/carousel/frosty_gold-2.webp",
-              "/img/product/carousel/frosty_gold-3.webp",
-              "/img/product/carousel/frosty_gold-4.webp",
-              "/img/product/carousel/frosty_gold-5.webp"
-            ],
-            "name": "glo HYPER+ Золотой",
-            "image": "/img/products/product-gold.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 5,
-            "images": [
-              "/img/product/carousel/Mahogany-Red-1.webp",
-              "/img/product/carousel/Mahogany-Red-2.webp",
-              "/img/product/carousel/Mahogany-Red-3.webp",
-              "/img/product/carousel/Mahogany-Red-4.webp",
-              "/img/product/carousel/Mahogany-Red-5.webp"
-            ],
-            "name": "glo HYPER+ Чёрно-красный",
-            "image": "/img/products/product-red-wood.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 6,
-            "images": [
-              "/img/product/carousel/energetic_blue-1.webp",
-              "/img/product/carousel/energetic_blue-2.webp",
-              "/img/product/carousel/energetic_blue-3.webp",
-              "/img/product/carousel/energetic_blue-4.webp",
-              "/img/product/carousel/energetic_blue-5.webp"
-            ],
-            "name": "glo HYPER+ Синий",
-            "image": "/img/products/product-blue.webp",
-            "price": 200000
-          },
-          {
-            "id": 7,
-            "images": [
-              "/img/product/carousel/pearl_white-1.webp",
-              "/img/product/carousel/pearl_white-2.webp",
-              "/img/product/carousel/pearl_white-3.webp",
-              "/img/product/carousel/pearl_white-4.webp",
-              "/img/product/carousel/pearl_white-5.webp"
-            ],
-            "name": "glo HYPER+ Белый",
-            "image": "/img/products/product-white.webp",
-            "price_manager": 150000,
-            "price": 200000
-          },
-          {
-            "id": 8,
-            "images": [
-              "/img/product/carousel/ebony_black-1.webp",
-              "/img/product/carousel/ebony_black-2.webp",
-              "/img/product/carousel/ebony_black-3.webp",
-              "/img/product/carousel/ebony_black-4.webp",
-              "/img/product/carousel/ebony_black-5.webp"
-            ],
-            "name": "glo HYPER+ Чёрный",
-            "image": "/img/products/product-black.webp",
-            "price_manager": 150000,
-            "price": 200000
-          }
-        ]
-      },
+
 
 
     }
   },
   created(){
     var current_id = this.$route.params.product_id
-    console.log(this.$i18n.locale)
-    this.products[this.$i18n.locale].forEach(item => {
+    this.$store.state.products[this.$i18n.locale].forEach(item => {
       if(item.id == current_id)
         this.current_product = item; 
     });
